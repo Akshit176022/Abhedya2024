@@ -8,7 +8,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 // import Login from "./components/Login/Login";
 
 //  import Sign_up from "./components/Sign_up/Signup";
-//  import Navbar_new from "./Navbar_new/Navbar";
+  import Navbar_new from "./Navbar_new/Navbar";
  import Home from "./components/Home_page_new/Home";
 
 
@@ -23,7 +23,7 @@ function App(){
     <Routes>
 
       
-      <Route path="/home" element={<><Home/></>}/>
+      <Route path="/home" element={<><Navbar_new/><Home/></>}/>
 
 
 
