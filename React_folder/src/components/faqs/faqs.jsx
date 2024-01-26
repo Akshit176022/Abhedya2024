@@ -1,27 +1,53 @@
-import React from "react";
+import React, { useState } from "react";
 import "./faqs.css";
 
+const faqData = [
+  {
+    question: "How many persons can be there in a team?",
+    answer: "ashutoshashutoshashutoshashutoshashutoshashutoshashutoshashutoshvs",
+  },
+  {
+    question: "How is the winning determined?",
+    answer: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates adipisci deserunt asperiores delectus repellat magni!",
+  },
+  {
+    question: "What is the cost of participation?",
+    answer: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates adipisci deserunt asperiores delectus repellat magni!",
+  },
+];
 
-function Faqs(){
-    return(
-        <><h2>Frequently Asked Questions</h2>
-        <button class="accordion">How many person can be there in a team?</button>
-        <div class="panel">
-            <p>ashutoshashutoshashutoshashutoshashutoshashutoshashutoshashutoshvs</p>
-        </div>
-        <button class="accordion">How is the winning determined?</button>
-        <div class="panel">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates adipisci deserunt asperiores delectus
-                repellat magni!</p>
-        </div>
-        <button class="accordion">What is the cost of participation?</button>
-        <div class="panel">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates adipisci deserunt asperiores delectus
-                repellat magni!</p>
-        </div>
+function Faqs() {
+  const [activeIndex, setActiveIndex] = useState(null);
 
-        </>
+  const handleClick = (index) => {
+    setActiveIndex(activeIndex === index ? null : index);
+  };
 
-    );
+  return (
+    <>
+      <h2>FAQs</h2>
+      {faqData.map((faq, index) => (
+        <div key={index}>
+          <button
+            className={`accordion ${activeIndex === index ? "active" : ""}`}
+            onClick={() => handleClick(index)}
+          >
+            {faq.question}
+          </button>
+          <div
+            className="panel"
+            style={{
+              maxHeight: activeIndex === index ? "100px" : "0",
+              overflow: "hidden",
+              transition: "max-height 0.3s ease",
+            }}
+          >
+            <p>{faq.answer}</p>
+          </div>
+        </div>
+      ))}
+    </>
+  );
 }
+
 export default Faqs;
