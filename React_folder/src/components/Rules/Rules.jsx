@@ -1,5 +1,8 @@
 import React from "react";
 import "./Rules.css"
+
+
+
 function Rules(){
     return(
  
@@ -7,7 +10,7 @@ function Rules(){
 <div class="container">
         <div class="rules">
             <div class="heading">
-                <h1>Rules</h1>
+                <h1>{}</h1>
             </div>
             <div class="description">
                 <ul>

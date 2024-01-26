@@ -1,11 +1,16 @@
 import React from "react";
 import "./Navbar.css"
+import { Link } from "react-router-dom";
+
+
+
+
 function Navbar(){
     return(
-        <>
+        
 <nav class="navbar">
        
-       <div class="logo">
+       <div class="logo" >
          PRODYOGIKI
          </div>
    
@@ -19,9 +24,9 @@ function Navbar(){
  
          <div class="menu">
    
-           <li><a href="/">Home</a></li>
+           <li>Home</li>
            <li class="services">
-             <a href="#">Guide</a>
+             Guide
    
  
              <ul class="dropdown">
@@ -33,12 +38,12 @@ function Navbar(){
    
            </li>
    
-           <li><a href="/Leaderboard">Leaderboard</a></li>
-           <li><a href="">login</a></li>
+           <li>Leaderboard</li>
+           <li>login</li>
          </div>
        </ul>
 </nav>
-        </>
+        
     );
     
 }

@@ -4,17 +4,17 @@ import "./Login.css"
 
 function Login (){
     return(
-<>
+
 
     
 
-<div class="card">
-      <div class="main">
+<div class="cardlogin">
+      <div class="mainheader">
         <div class="header">
             <h1>Login</h1>
         </div>
 
-        <form action="./form.html">
+        <form >
             <div class="components">
                 <label for="email ">Enter email</label>
                 <input type="text" id="email" name="email" placeholder="name@example.com"/>
@@ -42,7 +42,7 @@ function Login (){
 
 
   
-</>
+
     );
 }
 export default Login;

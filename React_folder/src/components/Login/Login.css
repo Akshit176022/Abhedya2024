@@ -31,7 +31,7 @@ a{
 text-decoration: none;
 color: white;
 }
-.card{
+.cardlogin{
 background-color:rgb(167, 99, 66,.3)  ;
 border-radius: 20px;
 box-shadow: rgba(9, 9, 9, 0.25) 0px 54px 55px, rgba(2, 0, 0, 0.12) 0px -12px 30px, rgba(14, 6, 6, 0.12) 0px 4px 6px, rgba(16, 15, 15, 0.17) 0px 12px 13px, rgba(3, 1, 1, 0.09) 0px -3px 5px;
@@ -41,7 +41,7 @@ margin-left: 490px;
 margin-top: 50px;
 }
 
-.main{
+.mainheader{
 background-color:rgb(167, 99, 66,.3)  ;
 border-radius: 20px;
 box-shadow: rgba(9, 9, 9, 0.2) 0px 54px 55px, rgba(2, 0, 0, 0.1) 0px -12px 30px, rgba(14, 6, 6, 0.1) 0px 4px 6px, rgba(16, 15, 15, 0.15) 0px 12px 13px, rgba(3, 1, 1, 0.09) 0px -3px 5px;
@@ -49,6 +49,9 @@ width: 450px;
 height: 600px;
 margin-left: 0px;
 margin-top: 0px;
+}
+h1{
+  font-size: 80px;
 }
 .header{
 text-align: center;
