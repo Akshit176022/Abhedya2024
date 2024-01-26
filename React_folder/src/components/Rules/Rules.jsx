@@ -10,7 +10,7 @@ function Rules(){
 <div class="container">
         <div class="rules">
             <div class="heading">
-                <h1>{}</h1>
+                <h1>Rules</h1>
             </div>
             <div class="description">
                 <ul>

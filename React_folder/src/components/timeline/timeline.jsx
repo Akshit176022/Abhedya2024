@@ -4,16 +4,7 @@ import  "./timeline.css";
 function timeline(){
     return(
         <>
-        <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    
-</head>
-<body>
-    <div class="timeline">
+   <div class="timeline">
         <div class="outer">
           <div class="card">
             <div class="info">
@@ -47,7 +38,7 @@ function timeline(){
           </div>
         </div>
       </div>
-</body>
-</html></>
-    )
+</>
+    );
 }
+export default timeline;

@@ -9,6 +9,7 @@
     font-family: var(--font);
     display: flex;
     justify-content: center;
+    background-image: url("../../../public/image/bg.png");
   }
   
   /* Timeline Container */
@@ -38,7 +39,8 @@
     box-shadow: 10px;
     color: rgba(255, 255, 255, 0.875);
     border-radius: 10px;
-    max-width: 400px;
+width: 800px;
+    height: 100px;
   
   }
   

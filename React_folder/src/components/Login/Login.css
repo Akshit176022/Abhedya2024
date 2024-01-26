@@ -18,7 +18,7 @@ padding :0;
 }
 
 body{
-background-image: url(../../../public/image1_0.jpg);
+background-image: url(../../../public/image/bg.png);
 color: white;
 background-size: cover;
 background-repeat:  no-repeat;
@@ -76,8 +76,9 @@ height: 40px;
 border: solid white 1px;
 border-radius: 5px;
 margin-top: 20px;
-background-color:rgb(167, 99, 66,.3)  ;
+background-color: white ;
 font-size: 20px;
+
 }
 .button{
 margin-left: 60px;
