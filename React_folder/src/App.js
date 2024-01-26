@@ -3,6 +3,8 @@ import React from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 // import Login from "./components/Login/Login";
 import Navbar_new from "./components/Navbar_new/Navbar_new";
+import Login from "./components/Login/Login";
+import Sign_up from "./components/Sign_up/Signup";
 
 
 
@@ -23,7 +25,9 @@ function App(){
 <BrowserRouter>
     <Routes>
 
-      <Route path="/" element={<><Navbar_new/></>}/> 
+      <Route path="/" element={<><Login/></>}/> 
+      <Route path="/Sign_up" element={<><Sign_up/></>}/> 
+
   
 
 

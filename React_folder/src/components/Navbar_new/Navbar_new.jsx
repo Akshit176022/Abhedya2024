@@ -1,60 +1,67 @@
-import React from "react";
+import React, { useState } from "react";
 import "./Navbar_new.css";
 
+function Navbar_new() {
+  const [isActive, setIsActive] = useState(false);
 
+  const toggleNavbar = () => {
+    console.log("toggleNavbar")
+    setIsActive(!isActive);
+  };
 
+  const closeNavbar = () => {
+    setIsActive(false);
+  };
 
-function Navbar_new(){
-    return (
+  return (
 
-  <header class="header">
+    <header className={`header ${isActive ? 'active' : ''}`}>
 
-    
+      <div className="header-bottom skewBg" data-header>
+        <div className="container">
 
-    <div class="header-bottom skewBg" data-header>
-      <div class="container">
+          <a href="#" className="logo">Abhedya</a>
 
-        <a href="#" class="logo">Abhedya</a>
+          <nav className="navbar" data-navbar>
+            <ul className="navbar-list">
 
-        <nav class="navbar" data-navbar>
-          <ul class="navbar-list">
+              <li className="navbar-item">
+                <a href="#home" className="navbar-link skewBg" data-nav-link onClick={closeNavbar}>Home</a>
+              </li>
 
-            <li class="navbar-item">
-              <a href="#home" class="navbar-link skewBg" data-nav-link>Home</a>
-            </li>
+              <li className="navbar-item">
+                <a href="#live" className="navbar-link skewBg" data-nav-link onClick={closeNavbar}>Guide</a>
+              </li>
 
-            <li class="navbar-item">
-              <a href="#live" class="navbar-link skewBg" data-nav-link>Guide</a>
-            </li>
+              <li className="navbar-item">
+                <a href="#features" className="navbar-link skewBg" data-nav-link onClick={closeNavbar}>Leaderboard</a>
+              </li>
 
-            <li class="navbar-item">
-              <a href="#features" class="navbar-link skewBg" data-nav-link>Leaderboard</a>
-            </li>
+              <li className="navbar-item">
+                <a href="#shop" className="navbar-link skewBg" data-nav-link onClick={closeNavbar}>Login</a>
+              </li>
 
-            <li class="navbar-item">
-              <a href="#shop" class="navbar-link skewBg" data-nav-link>Login</a>
-            </li>
+              <li className="navbar-item">
+                <a href="#" className="navbar-link skewBg" data-nav-link onClick={closeNavbar}>Contact</a>
+              </li>
 
-            <li class="navbar-item">
-              <a href="#" class="navbar-link skewBg" data-nav-link>Contact</a>
-            </li>
+            </ul>
+          </nav>
 
-          </ul>
-        </nav>
+          <div className="header-actions">
 
-        <div class="header-actions">
+            <button className="nav-toggle-btn" aria-label="toggle menu" data-nav-toggler onClick={toggleNavbar}>
+              <ion-icon name="menu-outline" className={`menu ${isActive ? 'hidden' : ''}`}></ion-icon>
+              <ion-icon name="close-outline" className={`close ${isActive ? '' : 'hidden'}`}></ion-icon>
+            </button>
 
-          <button class="nav-toggle-btn" aria-label="toggle menu" data-nav-toggler>
-            <ion-icon name="menu-outline" class="menu"></ion-icon>
-            <ion-icon name="close-outline" class="close"></ion-icon>
-          </button>
+          </div>
 
         </div>
-
       </div>
-    </div>
 
-  </header>
-    );
+    </header>
+  );
 }
+
 export default Navbar_new;
