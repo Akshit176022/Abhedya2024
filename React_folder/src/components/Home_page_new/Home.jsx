@@ -23,7 +23,7 @@ function Home(){
             Embark on a cosmic adventure with Abhedya, an interstellar cryptic hunt challenging your logical, technical, and creative thinking. 
           </p>
   
-          <button class="btn skewBg">Read More</button>
+          <a href="#readmore"><button class="btn skewBg">Read More</button></a>
   
         </div>
   
