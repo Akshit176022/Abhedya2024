@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Rubik+Doodle+Shadow&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Rubik+Doodle+Shadow&family=Rubik:wght@300&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Rubik+Doodle+Shadow&family=Rubik:wght@300&family=Space+Mono&display=swap');
+        @import url('https://fonts.cdnfonts.com/css/space-age');
+  
+ html{
+    font-size: 20px;
+   }
+   
+   *{
+    margin: 0;
+    padding :0;
+
+   }
+   
+   body{
+    background-image: url(./image/image1_0.jpg);
+    color: white;
+    background-size: cover;
+    background-repeat:  no-repeat;
+    height: 120vh;
+    background-position: center;
+    backdrop-filter: blur(5px);
+    padding: 20px;
+   }
+   a{
+    text-decoration: none;
+    color: white;
+   }
+   .card{
+    background-color:rgb(167, 99, 66,.3)  ;
+    border-radius: 20px;
+    box-shadow: rgba(9, 9, 9, 0.25) 0px 54px 55px, rgba(2, 0, 0, 0.12) 0px -12px 30px, rgba(14, 6, 6, 0.12) 0px 4px 6px, rgba(16, 15, 15, 0.17) 0px 12px 13px, rgba(3, 1, 1, 0.09) 0px -3px 5px;
+    width: 450px;
+    height: 780px;
+    margin-left: 490px;
+    margin-top: 0px;
+   }
+   
+   .main{
+    background-color:rgb(167, 99, 66,.3)  ;
+    border-radius: 20px;
+    box-shadow: rgba(9, 9, 9, 0.2) 0px 54px 55px, rgba(2, 0, 0, 0.1) 0px -12px 30px, rgba(14, 6, 6, 0.1) 0px 4px 6px, rgba(16, 15, 15, 0.15) 0px 12px 13px, rgba(3, 1, 1, 0.09) 0px -3px 5px;
+    width: 450px;
+    height: 780px;
+    margin-left: 0px;
+    margin-top: 0px;
+   }
+   .header{
+     text-align: center;
+     font-size: 1.5rem;
+     padding-top: 10px;
+   }
+ form{
+    margin-top: 10px;
+    font-size: 1.5rem;
+ }
+ 
+ .components{
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    margin-left: 60px;
+ }
+ 
+ input{
+    width: 350px;
+    height: 40px;
+    border: solid white 1px;
+    border-radius: 5px;
+    margin-top: 20px;
+    background-color:rgb(167, 99, 66,.3)  ;
+    font-size: 20px;
+ }
+ .button{
+    margin-left: 60px;
+    margin-top: 40px;
+
+ }
+
+ #Button{
+    height: 50px;
+    width: 140px;
+    border: solid white 1px;
+    background-color:rgb(167, 99, 66,.3)  ;
+    border-radius: 5px;
+    font-size: 1.3rem;
+    color: white;
+    
+
+ }
+
+ #Button:hover{
+    cursor: pointer;
+    border: solid white 4px;
+ }
+
+ .text{
+
+margin-top: 30px;
+    text-align: center;
+    font-size: 1.2rem;
+
+    
+ }
+.Signup{
+    margin-top: 20px;
+}
+
+a:hover{
+    font-size: 1.3rem;
+}
+
+
+
+@media screen and (max-width: 768px) {
+    .card,
+    .main {
+        width: 100%;
+        margin: 0;
+       
+    }
+
+    .button {
+        margin-left: 60px;
+    }
+
+    input {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .header {
+        font-size: 1.2rem;
+    }
+
+    .components,
+    .text {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+}
+   
+   
+    </style>
+</head>
+<body>
+   <div class="card">
+      <div class="main">
+        <div class="header">
+            <h1>Sign Up</h1>
+        </div>
+
+        <form action="./form.html">
+            <div class="components">
+                <label for="email ">Enter email</label>
+                <input type="text" id="email" name="email" placeholder="name@example.com">
+            </div>
+
+            <div class="components">
+                <label for="password ">Enter password</label>
+                <input type="text" id="password" name="password" placeholder="password">
+            </div>
+
+            <div class="components">
+                <label for="name  ">Enter username</label>
+                <input type="text" id="name " name="name " placeholder="Your Name">
+            </div>
+
+            <div class="components">
+                <label for="name  ">Enter your Phone number</label>
+                <input type="number" id="phone" name="name " placeholder="Phone Number">
+            </div>
+            <div class="button">
+                <button id="Button">
+                    SIGN UP
+                </button>
+            </div>
+
+        </form>
+
+        <div class="text">
+ 
+            <div class="Signup"><a href="">Already have an account? Sign Up</a></div>
+
+        </div>
+    </div>
+   </div> 
+ 
+</body>
+</html>

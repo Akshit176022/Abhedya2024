@@ -4,102 +4,145 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Rubik+Doodle+Shadow&family=Rubik:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Rubik+Doodle+Shadow&family=Rubik:wght@300&family=Space+Mono&display=swap');
+@import url('https://fonts.cdnfonts.com/css/space-age');
 
 html{
-  font-size: 20px;
+font-size: 20px;
 }
 
-  body {
-  
-    margin: 0;
-    padding: 0;
-    background-image: url(../../../public/image1_0.jpg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    height: 100vh;
-    font-family: 'Rubik', sans-serif;
-    backdrop-filter: blur(5px);
+*{
+margin: 0;
+padding :0;
 
-    }
-    .container{
-      border-radius: 20px;
-      
-     
-      
-      
-    }
+}
 
-    .form{
-      margin-top: -30px;
-    }
+body{
+background-image: url(../../../public/image1_0.jpg);
+color: white;
+background-size: cover;
+background-repeat:  no-repeat;
+height: 100vh;
+background-position: center;
+backdrop-filter: blur(5px);
+padding: 20px;
+}
+a{
+text-decoration: none;
+color: white;
+}
+.card{
+background-color:rgb(167, 99, 66,.3)  ;
+border-radius: 20px;
+box-shadow: rgba(9, 9, 9, 0.25) 0px 54px 55px, rgba(2, 0, 0, 0.12) 0px -12px 30px, rgba(14, 6, 6, 0.12) 0px 4px 6px, rgba(16, 15, 15, 0.17) 0px 12px 13px, rgba(3, 1, 1, 0.09) 0px -3px 5px;
+width: 450px;
+height: 600px;
+margin-left: 490px;
+margin-top: 50px;
+}
 
-    .row{
-      border-radius: 20px;
-     
-    }
-    .card{
-      background-color:rgb(167, 99, 66,.3)  ;
-      border-radius: 20px;
-      box-shadow: 10px 5px 0px 0px rgb(0,0,0,.5);
-    }
-     .card-body{
-      
-      background-color:rgb(167, 99, 66,.3);
-      border-radius: 20px;
+.main{
+background-color:rgb(167, 99, 66,.3)  ;
+border-radius: 20px;
+box-shadow: rgba(9, 9, 9, 0.2) 0px 54px 55px, rgba(2, 0, 0, 0.1) 0px -12px 30px, rgba(14, 6, 6, 0.1) 0px 4px 6px, rgba(16, 15, 15, 0.15) 0px 12px 13px, rgba(3, 1, 1, 0.09) 0px -3px 5px;
+width: 450px;
+height: 600px;
+margin-left: 0px;
+margin-top: 0px;
+}
+.header{
+text-align: center;
+font-size: 1.5rem;
+padding-top: 10px;
+}
+form{
+margin-top: 10px;
+font-size: 1.5rem;
+}
 
+.components{
+display: flex;
+flex-direction: column;
+margin-top: 40px;
+margin-left: 60px;
+}
 
-     }
-    .btn-login {
-      font-size: .7rem;
-      letter-spacing: 0.05rem;
-      padding: 0.75rem 1rem;
-      
-    }
-    .card-title{
-      font-size: 20px;
-      
-    }
-    #login{
-      
-      font-size: 3rem;
-      color: rgb(1, 1, 1);
-      font-family:sans-serif;
-      margin-top: -10px;
-      
-    }
-    
-    .form-floating{
-      font-size: 1rem;
-      color:rgb(253, 250, 250);
-      
-    }
-    .form-control{
-      color: rgb(251, 247, 247);
-      font-size: 20px;
-      background-color: #ffffff03;
-    }
-   .text-center {
-    margin-top: 50px;
-    color: rgb(125, 11, 11);
-   }
-   .text-center:hover{
-    color: blue;
-   }
-   #forgotPasswordLink{
-    color: white;
-    
-   
-   }
-   #SignUp{
-    color: white;
+input{
+width: 350px;
+height: 40px;
+border: solid white 1px;
+border-radius: 5px;
+margin-top: 20px;
+background-color:rgb(167, 99, 66,.3)  ;
+font-size: 20px;
+}
+.button{
+margin-left: 60px;
+margin-top: 40px;
 
-   }
-   .btn-primary {
-    color: #fff;
-    background-color:  #90553a6b;;
-    border-color:white;
-}     
+}
+
+#Button{
+height: 50px;
+width: 140px;
+border: solid white 1px;
+background-color:rgb(167, 99, 66,.3)  ;
+border-radius: 5px;
+font-size: 1.3rem;
+color: white;
 
 
-  
+}
+
+#Button:hover{
+cursor: pointer;
+border: solid white 4px;
+}
+
+.text{
+
+margin-top: 30px;
+text-align: center;
+font-size: 1.2rem;
+
+
+}
+.Signup{
+margin-top: 20px;
+}
+
+a:hover{
+font-size: 1.3rem;
+}
+
+
+@media screen and (max-width: 768px) {
+  .card,
+  .main {
+      width: 100%;
+      margin: 0;
+  }
+
+  .button {
+      margin-left: 60px;
+  }
+
+  input {
+      width: 80%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .header {
+      font-size: 1.2rem;
+  }
+
+  .components,
+  .button,
+  .text {
+      margin-left: 20px;
+      margin-right: 20px;
+  }
+}
+
+

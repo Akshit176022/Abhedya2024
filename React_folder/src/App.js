@@ -5,8 +5,9 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 // import Leaderboard from "./components/Leaderboard/Leaderboard";
 // import Rules from "./components/Rules/Rules";
 // import Forgot from "./components/Forgot/Forgot";
-// import Login from "./components/Login/Login";
-import Sign_up from "./components/Sign_up/Signup";
+import Login from "./components/Login/Login";
+
+// import Sign_up from "./components/Sign_up/Signup";
 
 
 
@@ -30,7 +31,8 @@ function App(){
        <Route path="/Rules" element={<><Navbar/> <Rules/></> }/> 
        <Route path="/Forgot" element={<> <Navbar/><Forgot/></> }/>
        <Route path="/Login" element={<> <Navbar/><Login/></> }/> */}
-       <Route path="/" element={<><Sign_up/></> }/>
+       {/* <Route path="/" element={<><Sign_up/></> }/> */}
+       <Route path="/Login" element={<><Login/></> }/>
 
 
 
