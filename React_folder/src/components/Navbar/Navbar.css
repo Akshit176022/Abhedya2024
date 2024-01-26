@@ -68,7 +68,6 @@
     
     .menu li:hover {
       background-color:black;
-      border-radius: 5px;
       transition: 0.3s ease;
     }
     

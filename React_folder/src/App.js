@@ -1,14 +1,15 @@
 import React from "react";
 // import Navbar from "./components/Navbar/Navbar";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-// import Home from "./components/Home_page/Home";
-// import Leaderboard from "./components/Leaderboard/Leaderboard";
-// import Rules from "./components/Rules/Rules";
-// import Forgot from "./components/Forgot/Forgot";
-import Login from "./components/Login/Login";
+// import Login from "./components/Login/Login";
+import Navbar_new from "./components/Navbar_new/Navbar_new";
 
+
+<<<<<<< HEAD
 // import Sign_up from "./components/Sign_up/Signup";
 import Faqs from "./components/faqs/faqs"
+=======
+>>>>>>> 6e218473af2071a6014c5f77926c8cd0ce4134af
 
 
 
@@ -27,6 +28,7 @@ function App(){
 <BrowserRouter>
     <Routes>
 
+<<<<<<< HEAD
       {/* <Route path="/" element={<><Home/><Navbar/></>}/>
       <Route path="/Leaderboard" element={<><Navbar/> <Leaderboard/></> }/>
        <Route path="/Rules" element={<><Navbar/> <Rules/></> }/> 
@@ -34,6 +36,11 @@ function App(){
        <Route path="/Login" element={<> <Navbar/><Login/></> }/> */}
        {/* <Route path="/" element={<><Sign_up/></> }/> */}
        <Route path="/" element={<><Faqs/></> }/>
+=======
+      <Route path="/" element={<><Navbar_new/></>}/> 
+  
+
+>>>>>>> 6e218473af2071a6014c5f77926c8cd0ce4134af
 
 
 
