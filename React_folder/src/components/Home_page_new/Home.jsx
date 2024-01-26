@@ -31,6 +31,20 @@ function Home(){
   
       </div>
     </section>
+
+    <section class="section blog" id="readmore" aria-label="blog">
+        <div class="container">
+
+          <h2 class="h2 section-title">
+            About The Event
+          </h2>
+          <div class="container2">
+            <div class="container3">
+            <p class="readmoretext">jcbni  hrcbdwh vcvk ciuucbIn publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content. Lorem ipsum may be used as a placeholder before final copy is available.In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content. Lorem ipsum may be used as a placeholder before final copy is available.In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content. Lorem ipsum may be used as a placeholder before final copy is available.In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content. Lorem ipsum may be used as a placeholder before final copy is available.In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content. Lorem ipsum may be used as a placeholder before final copy is available.</p>
+            </div>
+          </div>
+        </div>
+      </section>
   </body>
     </>
 
