@@ -1,6 +1,6 @@
 import React from "react";
-import "./style.css";
 import "./style2.css";
+import "./style.css";
 
 
 
@@ -8,7 +8,7 @@ function Home(){
     return(
     <><body id="top">
     
-    <section class="section hero" id="home" aria-label="home" >
+    <section class="section hero" id="home" aria-label="home"  >
          <div class="container">
   
         <div class="hero-content">

@@ -100,6 +100,9 @@
 
 }
 
+.section{
+    background-image: url(bg1.png);
+}
 
 
 
@@ -125,6 +128,9 @@ a {
 
 a,
 img,
+span,
+time,
+input,
 button,
 ion-icon { display: block; }
 
@@ -373,6 +379,7 @@ body {
 
 
 
+
 /*-----------------------------------*\
   #HERO
 \*-----------------------------------*/
@@ -395,9 +402,9 @@ body {
 
 .hero-subtitle {
 
-  background: linear-gradient(to right, #f32170, #ff6b08,#cf23cf, #eedd44);
+  /* background: linear-gradient(to right, #f32170, #ff6b08,#cf23cf, #eedd44);
   -webkit-text-fill-color: transparent;
-  -webkit-background-clip: text;
+  -webkit-background-clip: text; */
   font-size: var(--fs-6);
   font-weight: var(--fw-700);
   text-transform: uppercase;
