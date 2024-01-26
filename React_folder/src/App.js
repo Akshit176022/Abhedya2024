@@ -8,6 +8,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Login from "./components/Login/Login";
 
 // import Sign_up from "./components/Sign_up/Signup";
+import Faqs from "./components/faqs/faqs"
 
 
 
@@ -32,7 +33,7 @@ function App(){
        <Route path="/Forgot" element={<> <Navbar/><Forgot/></> }/>
        <Route path="/Login" element={<> <Navbar/><Login/></> }/> */}
        {/* <Route path="/" element={<><Sign_up/></> }/> */}
-       <Route path="/Login" element={<><Login/></> }/>
+       <Route path="/" element={<><Faqs/></> }/>
 
 
 
