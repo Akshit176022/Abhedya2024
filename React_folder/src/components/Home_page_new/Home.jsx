@@ -1,16 +1,16 @@
 import React from "react";
 
 
-function home_new(){
+
+function Home(){
     return(
     <>
         <article>
 
       
 
-<section class="section hero" id="home" aria-label="home"
-  style="background-image: url('./assetsnew/bg.png')">
-  <div class="container">
+<section class="section hero" id="home" aria-label="home"> 
+ <div class="container">
 
     <div class="hero-content">
 
@@ -28,8 +28,8 @@ function home_new(){
 
     </div>
 
-    <figure class="hero-banner img-holder" style="--width: 700; --height: 700;">
-       <img src="" width="700" height="700" alt="hero banner" class="w-100"/> 
+    <figure class="hero-banner img-holder" style={{width: 700, height: 700}}>
+       <img src="../../../../React_folder/public/hero2.png" width="700" height="700" alt="hero banner" class="w-100"/> 
     </figure>
 
   </div>
@@ -44,4 +44,4 @@ function home_new(){
     );
 }
 
-export default home_new;
+export default Home;

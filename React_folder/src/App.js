@@ -9,7 +9,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 //  import Sign_up from "./components/Sign_up/Signup";
  import Navbar_new from "./Navbar_new/Navbar";
- import Home_page_new from "./components/Home_page_new/home_page_new";
+ import Home from "./components/Home_page_new/Home";
 
 
 
@@ -28,8 +28,8 @@ function App(){
 <BrowserRouter>
     <Routes>
 
-      <Route path="/Navbar" element={<><Navbar_new/></>}/>
-      <Route path="/home" element={<>home_page_new</>}/>
+      
+      <Route path="/home" element={<><Home/></>}/>
 
 
 
