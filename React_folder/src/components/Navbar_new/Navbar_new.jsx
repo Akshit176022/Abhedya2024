@@ -1,65 +1,78 @@
-import React, { useState } from "react";
+
+
+import React, { useState, useEffect } from "react";
 import "./Navbar_new.css";
 
 function Navbar_new() {
   const [isActive, setIsActive] = useState(false);
 
-  const toggleNavbar = () => {
-    console.log("toggleNavbar")
+  const toggleMenu = () => {
     setIsActive(!isActive);
   };
 
-  const closeNavbar = () => {
+  const closeMenu = () => {
     setIsActive(false);
   };
 
+  // Handle scrolling effect
+  useEffect(() => {
+    const handleScroll = () => {
+      if (window.scrollY >= 200) {
+
+      } else {
+
+      }
+    };
+
+    window.addEventListener("scroll", handleScroll);
+
+
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
+
   return (
-
-    <header className={`header ${isActive ? 'active' : ''}`}>
-
+    <header className={`header ${isActive ? 'menu-active' : ''}`}>
       <div className="header-bottom skewBg" data-header>
         <div className="container">
 
           <a href="#" className="logo">Abhedya</a>
 
-          <nav className="navbar" data-navbar>
+          <nav className={`navbar ${isActive ? 'active' : ''}`} data-navbar>
             <ul className="navbar-list">
 
               <li className="navbar-item">
-                <a href="#home" className="navbar-link skewBg" data-nav-link onClick={closeNavbar}>Home</a>
+                <a href="#home" className="navbar-link skewBg" data-nav-link onClick={closeMenu}>Home</a>
               </li>
 
               <li className="navbar-item">
-                <a href="#live" className="navbar-link skewBg" data-nav-link onClick={closeNavbar}>Guide</a>
+                <a href="#live" className="navbar-link skewBg" data-nav-link onClick={closeMenu}>Guide</a>
               </li>
 
               <li className="navbar-item">
-                <a href="#features" className="navbar-link skewBg" data-nav-link onClick={closeNavbar}>Leaderboard</a>
+                <a href="#features" className="navbar-link skewBg" data-nav-link onClick={closeMenu}>Leaderboard</a>
               </li>
 
               <li className="navbar-item">
-                <a href="#shop" className="navbar-link skewBg" data-nav-link onClick={closeNavbar}>Login</a>
+                <a href="#shop" className="navbar-link skewBg" data-nav-link onClick={closeMenu}>Login</a>
               </li>
 
               <li className="navbar-item">
-                <a href="#" className="navbar-link skewBg" data-nav-link onClick={closeNavbar}>Contact</a>
+                <a href="#" className="navbar-link skewBg" data-nav-link onClick={closeMenu}>Contact</a>
               </li>
 
             </ul>
           </nav>
 
           <div className="header-actions">
-
-            <button className="nav-toggle-btn" aria-label="toggle menu" data-nav-toggler onClick={toggleNavbar}>
-              <ion-icon name="menu-outline" className={`menu ${isActive ? 'hidden' : ''}`}></ion-icon>
-              <ion-icon name="close-outline" className={`close ${isActive ? '' : 'hidden'}`}></ion-icon>
+            <button className="nav-toggle-btn" aria-label="toggle menu" onClick={toggleMenu}>
+              <ion-icon name={isActive ? "close-outline" : "menu-outline"} class={isActive ? "close" : "menu"}></ion-icon>
             </button>
-
           </div>
 
         </div>
       </div>
-
     </header>
   );
 }

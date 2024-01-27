@@ -10,9 +10,9 @@ function Forgot(){
     <h2>Forgot Password</h2>
     <p>Enter your email address below to reset your password.</p>
     <form id="forgotPasswordForm">
-        <label for="email">Email:</label>
-        <input type="email" id="email" name="email" required/>
-       <div Class="Password"><button type="button">Reset Password</button></div> 
+       <div className="labelforgotpassword"> <label for="email">Email:</label></div>
+        <div className="inputforgot"><input type="email" id="email" name="email" required/></div>
+       <div Class="Passwordforgot"><button type="buttonforgot">Reset Password</button></div> 
     </form>
 </div>
 

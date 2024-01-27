@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+ 
+  
+
+   .timeline {
+    background: var(--primary-color);
+    margin: x auto;
+    padding: 20px;
+  } 
+
+  .timeline {
+
+    margin-top: 30px;
+  }
+  
+  
+  .outer {
+    border-left: 2px solid #333;
+    margin-left: 300px;
+  }
+  
+  /* Card container */
+  .cardtimeline{
+    position: relative;
+    margin: 0 0 20px 20px;
+    padding: 10px;
+    background: #90909067;
+    border: 1px solid rgb(255, 255, 255);
+    box-shadow: 10px;
+    color: rgba(255, 255, 255, 0.875);
+    border-radius: 10px;
+width: 800px;
+    height: 100px;
+  
+  }
+  
+  
+
+  /* Information about the timeline */
+  .info {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .card >.info > h3 {
+    background-color: #393939a8;
+    padding: 5px;
+    border-radius: 3px
+  } 
+
+  /* Title of the card */
+  .title {
+    color: orangered;
+    position: relative;
+  }
+  
+  /* Timeline dot  */
+  .title::before {
+    content: "";
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  background: white;
+  border-radius: 999px;
+  left: -39px;
+  border: 3px solid orangered;
+}
+  
+  
+  
+@media (min-width: 900px) {
+  .cardtimeline {
+    max-width: 800px;
+  }
+}
+@media (min-width: 850px) {
+  .cardtimeline {
+    max-width: 775px;
+  }
+}
