@@ -18,7 +18,7 @@ padding :0;
 }
 
 body{
-background-image: url(../../../public/image1_0.jpg);
+background-image: url(../../../public/image/bg.png);
 color: white;
 background-size: cover;
 background-repeat:  no-repeat;
@@ -37,7 +37,7 @@ border-radius: 20px;
 box-shadow: rgba(9, 9, 9, 0.25) 0px 54px 55px, rgba(2, 0, 0, 0.12) 0px -12px 30px, rgba(14, 6, 6, 0.12) 0px 4px 6px, rgba(16, 15, 15, 0.17) 0px 12px 13px, rgba(3, 1, 1, 0.09) 0px -3px 5px;
 width: 450px;
 height: 600px;
-margin-left: 490px;
+margin-left: 470px;
 margin-top: 50px;
 }
 
@@ -47,15 +47,13 @@ border-radius: 20px;
 box-shadow: rgba(9, 9, 9, 0.2) 0px 54px 55px, rgba(2, 0, 0, 0.1) 0px -12px 30px, rgba(14, 6, 6, 0.1) 0px 4px 6px, rgba(16, 15, 15, 0.15) 0px 12px 13px, rgba(3, 1, 1, 0.09) 0px -3px 5px;
 width: 450px;
 height: 600px;
-margin-left: 0px;
+margin-left: 470px;
 margin-top: 0px;
 }
-h1{
-  font-size: 80px;
-}
-.header{
+
+.headerlogin{
 text-align: center;
-font-size: 1.5rem;
+font-size: 3rem;
 padding-top: 10px;
 }
 form{
@@ -63,11 +61,12 @@ margin-top: 10px;
 font-size: 1.5rem;
 }
 
-.components{
+.componentslogin{
 display: flex;
 flex-direction: column;
 margin-top: 40px;
-margin-left: 60px;
+margin-left: 40px;
+width: 400px;
 }
 
 input{
@@ -76,16 +75,17 @@ height: 40px;
 border: solid white 1px;
 border-radius: 5px;
 margin-top: 20px;
-background-color:rgb(167, 99, 66,.3)  ;
+background-color: white ;
 font-size: 20px;
+
 }
-.button{
-margin-left: 60px;
+.buttonlogin{
+margin-left: 0px;
 margin-top: 40px;
 
 }
 
-#Button{
+#Buttonlogin{
 height: 50px;
 width: 140px;
 border: solid white 1px;
@@ -93,16 +93,18 @@ background-color:rgb(167, 99, 66,.3)  ;
 border-radius: 5px;
 font-size: 1.3rem;
 color: white;
+margin-left: 40px;
 
 
 }
 
-#Button:hover{
+#Buttonlogin:hover{
 cursor: pointer;
 border: solid white 4px;
+margin-left: 60px;
 }
 
-.text{
+.textlogin{
 
 margin-top: 30px;
 text-align: center;
@@ -110,23 +112,27 @@ font-size: 1.2rem;
 
 
 }
+.textlogin:hover{
+  font-size: 1.5rem;
+}
 .Signup{
 margin-top: 20px;
 }
 
-a:hover{
-font-size: 1.3rem;
-}
+
 
 
 @media screen and (max-width: 768px) {
-  .card,
-  .main {
+  .cardlogin,
+  .mainheaderlogin {
       width: 100%;
-      margin: 0;
+      margin-left: 0;
+  }
+  .password{
+    width: 70%;
   }
 
-  .button {
+  .buttonlogin {
       margin-left: 60px;
   }
 
@@ -135,16 +141,39 @@ font-size: 1.3rem;
   }
 }
 
-@media screen and (max-width: 480px) {
-  .header {
-      font-size: 1.2rem;
+@media screen and (min-width: 768px) {
+  .cardlogin {
+    max-width: 70%;
+  }
+  .mainheaderlogin {
+    font-size: 2rem;
+    margin-left: 5%;
   }
 
-  .components,
-  .button,
-  .text {
-      margin-left: 20px;
-      margin-right: 20px;
+  input {
+    font-size: 16px;
+    margin-left: 0px;
+  }
+  .buttonlogin {
+    margin-left: 5%
+}
+
+}
+
+
+@media screen and (max-width: 480px) {
+  .cardlogin {
+    padding: 15px;
+  }
+
+  .mainheaderlogin {
+    font-size: 2rem;
+    margin-left:5;
+  }
+
+  input {
+    font-size: 16px;
+    margin-left: 0px;
   }
 }
 

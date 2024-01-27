@@ -20,34 +20,6 @@ function Home(){
           
     
       </div>
-      <div class="message">
-        <ul type="dot" class="guidelines">
-          <li>
-              Use of desktop/laptop is recommended.
-          </li>
-          <li>
-              The levels vary in degree of difficulty.
-          </li>
-          <li>
-              The Hunt will begin on 1<sup>st</sup> feburary, 6 PM.
-          </li>
-          <li>
-              The leaderboard will be used as a standard for judgement criteria.
-          </li>
-          <li>
-              Carefully follow the rules and regulations.
-          </li>
-          <li>
-              Please read the storyline and questions very carefully.
-          </li>
-          <li>
-              For any queries contact 7876302269 </li>
-          <li>
-              Start playing  Abhedya
-                 
-          </li>
-      </ul>
-      </div>
 
 
   </body>

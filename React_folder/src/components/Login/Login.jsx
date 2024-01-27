@@ -9,30 +9,30 @@ function Login (){
     
 
 <div class="cardlogin">
-      <div class="mainheader">
-        <div class="header">
-            <h1>Login</h1>
+      <div class="mainheaderlogin">
+        <div class="headerlogin">
+            Login
         </div>
 
         <form >
-            <div class="components">
+            <div class="componentslogin">
                 <label for="email ">Enter email</label>
                 <input type="text" id="email" name="email" placeholder="name@example.com"/>
             </div>
 
-            <div class="components">
+            <div class="componentslogin">
                 <label for="password ">Enter password</label>
                 <input type="text" id="password" name="password" placeholder="password"/>
             </div>
 
-            <div class="button">
-                <button id="Button">
+            <div class="buttonlogin">
+                <button id="Buttonlogin">
                     Login
                 </button>
             </div>
         </form>
 
-        <div class="text">
+        <div class="textlogin">
             <div class="forgot"><a href="#">Forgot Password?</a></div>
             <div class="Signup"><a href="#">Don't have an account? Sign Up</a></div>
 
