@@ -1,0 +1,47 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Rubik+Doodle+Shadow&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Rubik+Doodle+Shadow&family=Rubik:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Rubik+Doodle+Shadow&family=Rubik:wght@300&family=Space+Mono&display=swap');
+@import url('https://fonts.cdnfonts.com/css/space-age');
+.level1{
+    font-size: 60px;
+    font-family: 'Space Age', sans-serif; 
+}
+
+  .game-container {
+
+    background-color: rgba(114 35 100 / .5);
+    padding: 20px;
+    border-radius: 10px;
+
+ 
+    width: 70%;
+    margin: auto;
+    margin-top: 200px;
+    box-shadow: rgba(249, 248, 248, 0.25) 0px 54px 55px, rgba(243, 240, 240, 0.12) 0px -12px 30px, rgba(249, 245, 245, 0.12) 0px 4px 6px, rgba(246, 241, 241, 0.17) 0px 12px 13px, rgba(249, 245, 245, 0.09) 0px -3px 5px;
+  }
+
+  .question-text {
+    font-size: 30px;
+    margin-bottom: 20px;
+
+
+  }
+
+  input {
+    padding: 10px;
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+
+  button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+  }

@@ -1,15 +1,25 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Rubik+Doodle+Shadow&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Rubik+Doodle+Shadow&family=Rubik:wght@300&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Rubik+Doodle+Shadow&family=Rubik:wght@300&family=Space+Mono&display=swap');
-@import url('https://fonts.cdnfonts.com/css/space-age');
+/*-----------------------------------*\
+  #style.css
+\*-----------------------------------*/
+
+/**
+ * copyright 2022 codewithsadee
+ */
+
+
+
+
+
+/*-----------------------------------*\
+  #CUSTOM PROPERTY
+\*-----------------------------------*/
 
 :root {
 
     /**
      * colors
      */
+  
   
     --rich-black-fogra-29_95: hsla(222, 18%, 11%, 0.95);
     --raisin-black-1: hsl(0, 0%, 16%);
@@ -92,18 +102,27 @@
   }
   
   
-  
+      
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Rubik+Doodle+Shadow&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Rubik+Doodle+Shadow&family=Rubik:wght@300&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Rubik+Doodle+Shadow&family=Rubik:wght@300&family=Space+Mono&display=swap');
+  @import url('https://fonts.cdnfonts.com/css/space-age');
   
   
   /*-----------------------------------*\
     #RESET
   \*-----------------------------------*/
+  
+
+  
  
-  
-
 
   
-  :focus-visible { outline-offset: 4px; }
+
+  
+
   
   
   
@@ -113,16 +132,8 @@
     #REUSED STYLE
   \*-----------------------------------*/
   
-  .container { padding-inline: 15px; }
-  
-  .section { padding-block: var(--section-padding); }
-  
+ 
 
-  
-  :is(.h1, .h2, .h3, .card-price) .span {
-    display: inline-block;
-    color: var(--marigold);
-  }
   
   .btn {
     margin-inline: auto;
@@ -193,7 +204,7 @@
   }
   
   .section-title::after {
-    content: url("../../../public/image/title-underline.png");
+  
     position: absolute;
     top: 100%;
     left: 50%;
@@ -286,17 +297,32 @@
     align-items: center;
   }
   
+  
+  
+  
+  /* font of logo */
+  
   .logo {
     color: var(--white);
     font-family: var(--ff-oxanium);
-    font-size: 3rem;
+    font-size: 4rem;
     font-weight: var(--fw-800);
+    font-family: 'Space Age', sans-serif;    
   }
+  
+  
+  
+  
+  
+  
+  
+  
   
   .header-actions {
     display: flex;
     align-items: center;
     gap: 20px;
+   
   }
   
   
@@ -306,6 +332,7 @@
     font-size: 30px;
     border: 1px solid var(--white);
     padding: 4px;
+        
   }
   
   .nav-toggle-btn.active .menu,
@@ -326,8 +353,9 @@
     max-height: 0;
     transition: 0.25s var(--cubic-out);
     overflow: hidden;
-    
+   
   }
+  
   
   .navbar.active {
     visibility: visible;
@@ -340,11 +368,9 @@
   .navbar-link {
     padding: 10px 25px;
     transition: var(--transition);
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   }
   
-  .navbar-link:is(:hover, :focus) { background-color: var(--white_10);
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; }
+  .navbar-link:is(:hover, :focus) { background-color: var(--white_10); }
   
   
   
@@ -377,10 +403,11 @@
     /* color: var(--marigold); */
     background: linear-gradient(to right, #f32170, #ff6b08,#cf23cf, #eedd44);
     -webkit-text-fill-color: transparent;
-    /* -webkit-background-clip: text; */
+    -webkit-background-clip: text;
     font-size: var(--fs-6);
     font-weight: var(--fw-700);
     text-transform: uppercase;
+  
   }
   
   .hero-title { margin-block: 15px 12px; }
@@ -406,6 +433,7 @@
   .readmoretext {
     color: azure;
     text-align: center;
+    
   }
   
   
@@ -507,7 +535,7 @@
     left: 0;
     width: 100%;
     height: 100px;
-  
+    background: url("https://i.ibb.co/wQZVxxk/wave.png");
     background-size: 1000px 100px;
   }
   
@@ -737,7 +765,7 @@
      * FOOTER
      */
   
-    .footer-brand
+    .footer-brand,
     .footer-wrapper { grid-column: auto; }
   
     .footer-bottom-img { display: block; }
@@ -792,7 +820,7 @@
   
     .header-top {
       display: block;
-      background-image: url(../../../public/image/title-underline.png);
+      
       background-repeat: no-repeat;
       background-size: cover;
       background-position: center;
@@ -1089,4 +1117,10 @@
     .footer .container { grid-template-columns: 1fr 0.7fr 0.7fr 1fr; }
   
   }
+  .navbar-item a{
+    font-family: 'Space Age', sans-serif;   
+    font-size: 20px;
+  
+  }
+
   

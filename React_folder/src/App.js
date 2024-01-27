@@ -6,11 +6,12 @@ import Signup from "./components/Sign_up/Signup";
 import Leaderboard from "./components/Leaderboard/Leaderboard";
  import Rules from "./components/Rules/Rules";
 import Forgot from "./components/Forgot/Forgot";
-
+import Footer from "./components/footer/footer";
 // import Home from "./components/Home_page/Home"
 import Timelines from "./components/timeline/timeline";
-import Navbar_new from "./components/Navbar_new/Navbar_new";
-import Footer from "./components/footer/footer";
+import Fnav from "./components/Final_navbar/navbar";
+import Fhome from "./components/Final_home/home";
+import Game from "./components/Game/game";
 
 
 
@@ -37,7 +38,7 @@ function App(){
     <Routes>
 
 
-       <Route path="/Login" element={<> <Login/></> }/>  
+       <Route path="/Login" element={<> <Login/><Footer/></> }/>  
       <Route path="/Signup" element={<> <Signup/></> }/>
       {/* <Route path="/New_home" element={<> <Newhome/></> }/>   */}
       <Route path="/Leaderboard" element={<> <Leaderboard/></> }/> 
@@ -45,7 +46,7 @@ function App(){
        <Route path="/Forgot" element={<><Forgot/> </>}/> 
        <Route path="/" element={<><Timelines/> </>}/>  
         {/* <Route path="/" element={<><Home/> </>}/>    */}
-        <Route path="/Nav" element={<> <Navbar_new/></> }/> 
+        {/* <Route path="/Nav" element={<> <Navbar_new/></> }/>  */}
         <Route path="/footer" element={<> <Footer/></> }/> 
 
     
