@@ -10,6 +10,7 @@ import Forgot from "./components/Forgot/Forgot";
 // import Home from "./components/Home_page/Home"
 import Timelines from "./components/timeline/timeline";
 import Navbar_new from "./components/Navbar_new/Navbar_new";
+import Footer from "./components/footer/footer";
 
 
 
@@ -45,6 +46,8 @@ function App(){
        <Route path="/" element={<><Timelines/> </>}/>  
         {/* <Route path="/" element={<><Home/> </>}/>    */}
         <Route path="/Nav" element={<> <Navbar_new/></> }/> 
+        <Route path="/footer" element={<> <Footer/></> }/> 
+
     
 
 
