@@ -1,60 +1,84 @@
-import React from "react";
+
 import "./Navbar_new.css";
 
 
 
 
-function Navbar_new(){
-    return (
+import React, { useState, useEffect } from "react";
+import "./Navbar_new.css";
 
-  <header class="header">
+function Navbar_new() {
+  const [isActive, setIsActive] = useState(false);
 
-    
+  const toggleMenu = () => {
+    setIsActive(!isActive);
+  };
 
-    <div class="header-bottom skewBg" data-header>
-      <div class="container">
+  const closeMenu = () => {
+    setIsActive(false);
+  };
 
-        <a href="#" class="logo">Abhedya</a>
+  // Handle scrolling effect
+  useEffect(() => {
+    const handleScroll = () => {
+      if (window.scrollY >= 200) {
 
-        <nav class="navbar" data-navbar>
-          <ul class="navbar-list">
+      } else {
 
-            <li class="navbar-item">
-              <a href="#home" class="navbar-link skewBg" data-nav-link>Home</a>
-            </li>
+      }
+    };
 
-            <li class="navbar-item">
-              <a href="#live" class="navbar-link skewBg" data-nav-link>Guide</a>
-            </li>
+    window.addEventListener("scroll", handleScroll);
 
-            <li class="navbar-item">
-              <a href="#features" class="navbar-link skewBg" data-nav-link>Leaderboard</a>
-            </li>
 
-            <li class="navbar-item">
-              <a href="#shop" class="navbar-link skewBg" data-nav-link>Login</a>
-            </li>
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
 
-            <li class="navbar-item">
-              <a href="#" class="navbar-link skewBg" data-nav-link>Contact</a>
-            </li>
+  return (
+    <header className={`header ${isActive ? 'menu-active' : ''}`}>
+      <div className="header-bottom skewBg" data-header>
+        <div className="container">
 
-          </ul>
-        </nav>
+          <a href="#" className="logo">Abhedya</a>
 
-        <div class="header-actions">
+          <nav className={`navbar ${isActive ? 'active' : ''}`} data-navbar>
+            <ul className="navbar-list">
 
-          <button class="nav-toggle-btn" aria-label="toggle menu" data-nav-toggler>
-            <ion-icon name="menu-outline" class="menu"></ion-icon>
-            <ion-icon name="close-outline" class="close"></ion-icon>
-          </button>
+              <li className="navbar-item">
+                <a href="#home" className="navbar-link skewBg" data-nav-link onClick={closeMenu}>Home</a>
+              </li>
+
+              <li className="navbar-item">
+                <a href="#live" className="navbar-link skewBg" data-nav-link onClick={closeMenu}>Guide</a>
+              </li>
+
+              <li className="navbar-item">
+                <a href="#features" className="navbar-link skewBg" data-nav-link onClick={closeMenu}>Leaderboard</a>
+              </li>
+
+              <li className="navbar-item">
+                <a href="#shop" className="navbar-link skewBg" data-nav-link onClick={closeMenu}>Login</a>
+              </li>
+
+              <li className="navbar-item">
+                <a href="#" className="navbar-link skewBg" data-nav-link onClick={closeMenu}>Contact</a>
+              </li>
+
+            </ul>
+          </nav>
+
+          <div className="header-actions">
+            <button className="nav-toggle-btn" aria-label="toggle menu" onClick={toggleMenu}>
+              <ion-icon name={isActive ? "close-outline" : "menu-outline"} class={isActive ? "close" : "menu"}></ion-icon>
+            </button>
+          </div>
 
         </div>
-
       </div>
-    </div>
-
-  </header>
-    );
+    </header>
+  );
 }
+
 export default Navbar_new;
