@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import "./Navbar.css";
+import "./navbar.css";
 
 function Navbar_new() {
   const [isActive, setIsActive] = useState(false);
@@ -35,7 +35,7 @@ function Navbar_new() {
       <div className="header-bottom skewBg" data-header>
         <div className="container">
 
-          <a href="#" className="logo">Abhedya</a>
+          <div className="logo">Abhedya</div>
 
           <nav className={`navbar ${isActive ? 'active' : ''}`} data-navbar>
             <ul className="navbar-list">

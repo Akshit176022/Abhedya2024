@@ -100,7 +100,7 @@
   
   }
   .section{
-    background-image: url(bg1.png);
+    background-image: url(../../../public/image/bg.png);
     height: auto;
     width: 100%;
     background-position: center;
@@ -136,13 +136,7 @@
 
   
   
-  *,
-  *::before,
-  *::after {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
+
   
   li { list-style: none; }
   
@@ -161,14 +155,8 @@
   
   img { height: auto; }
   
-  input,
-  button {
-    background: none;
-    border: none;
-    font: inherit;
-  }
-  
-  input { width: 100%; }
+
+
   
   button { cursor: pointer; }
   
@@ -253,7 +241,7 @@
   }
   
   .btn::after {
-    content: url("title-underline.png");
+    content: url("../../../public/image/title-underline.png");
     position: absolute;
     top: 0;
     bottom: 0;

@@ -7,9 +7,13 @@ import Leaderboard from "./components/Leaderboard/Leaderboard";
  import Rules from "./components/Rules/Rules";
 import Forgot from "./components/Forgot/Forgot";
 
+
+
 // import Home from "./components/Home_page/Home"
 import Timelines from "./components/timeline/timeline";
-import Navbar_new from "./components/Navbar_new/Navbar_new";
+import Fnav from "./components/Final_navbar/navbar";
+import Fhome from "./components/Final_home/home";
+import Game from "./components/Game/game";
 
 
 
@@ -35,16 +39,21 @@ function App(){
 <BrowserRouter>
     <Routes>
 
+    <Route path="/Login" element={<> <Fnav/><Login/></> }/> 
 
-       <Route path="/Login" element={<> <Navbar_new/><Login/></> }/>  
-      <Route path="/Signup" element={<> <Navbar_new/> <Signup/></> }/>
-      {/* <Route path="/New_home" element={<> <Newhome/></> }/>   */}
-      <Route path="/Leaderboard" element={<>  <Navbar_new/><Leaderboard/></> }/> 
-       <Route path="/Rules" element={<> <Navbar_new/><Rules/> </>}/> 
-       <Route path="/Forgot" element={<><Navbar_new/><Forgot/> </>}/> 
-       <Route path="/" element={<><Navbar_new/><Timelines/> </>}/>  
-        {/* <Route path="/" element={<><Home/> </>}/>    */}
-        <Route path="/Nav" element={<> <Navbar_new/></> }/> 
+        <Route path="/Fhome" element={<> <Fnav/><Fhome/></> }/> 
+        <Route path="/Sign" element={<> <Fnav/><Signup/></> }/> 
+        <Route path="/Leaderboard" element={<> <Fnav/><Leaderboard/></> }/> 
+        <Route path="/Time" element={<> <Fnav/><Timelines/></> }/> 
+        <Route path="/Game" element={<> <Fnav/><Game/></> }/> 
+
+
+        
+
+ 
+        
+
+    
     
 
 
