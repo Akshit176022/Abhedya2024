@@ -62,7 +62,7 @@
         display: grid;
         margin: 0;
         padding: 0;
-        background-image: url(../../../public/image1_0.jpg);
+        background-image: url(../../../public/image/bg.png);
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
@@ -90,6 +90,8 @@
       font-family: 'Orbitron', sans-serif;
       transform: rotateX(120deg);
       transform-origin: 50% 100%;
+      margin-top: 200px;
+     
     }
     
     .word:nth-of-type(2) {
@@ -98,6 +100,8 @@
       animation-delay: 1.5s;
     
       color: gold;
+      margin-top: 100px;
+
     }
     
     .superscript {
@@ -109,6 +113,7 @@
       font-family: 'Space Age', sans-serif;
     
       vertical-align: text-top;
+
     }
     
 
@@ -191,18 +196,19 @@
       transform: scale(0);
     }
     #presents{
-      font-size: 5rem;
+      font-size: 10rem;
       margin-left: 0px;
-     margin-top: -600px;
-      text-align: center;
+     /* margin-top: -600px; */
+      /* text-align: center; */
       font-family: 'Orbitron', sans-serif;
+
     }
   #Abhedya{
       color: white;
-      font-size: 5rem;
+      font-size: 10rem;
       margin-left: 0px;
       font-family: 'Orbitron', sans-serif;
-      text-align: center;
+      /* text-align: center; */
       
   }
     
@@ -240,24 +246,25 @@
   
 #presents{
 margin-left: 20px;
-font-size: 5rem;
+font-size: 10rem;
 margin-top: 200px;
 font-family: 'Rubik Doodle Shadow', system-ui;
 
 
 }
 #Abhedya{
-font-size: 5rem;
+font-size: 10rem;
 
 font-family: 'Rubik Doodle Shadow', system-ui;
-font-size: 5rem;
 
-margin-left: 50px;
+
+margin-left: 0px;
+margin-top: 0;
 
 
 }
 
-.message
+/* .message
 {
 
 width: 800px;
@@ -283,29 +290,21 @@ margin-top: 120px;
 margin-left: 0px;
 text-align: center;
 display: block;
-}
+} */
 
 @media (max-width: 1400px) {
-  .message{
-  font-size: 1.8rem;
-  line-height: 35px;
-  width: 80%;
-  font-family: 'Rubik', sans-serif;
-  margin-left: 10%;
-  margin-top: 0px;
-  height: 320px;
-  }
+
   #presents{
 
   margin-left: 20px;
-  font-size: 4rem;
+  font-size: 7rem;
   margin-top: 230px;
   font-family: 'Rubik Doodle Shadow', system-ui;
   
   
   }
   #Abhedya{
-  font-size: 4rem;
+  font-size: 7rem;
   font-family: 'Rubik Doodle Shadow', system-ui;
   margin-left: 20px;
   }
@@ -314,25 +313,18 @@ display: block;
    
    }
 @media (max-width: 1200px) {
-  .message{
-  font-size: 1.8rem;
-  line-height: 30px;
-  width: 80%;
-  font-family: 'Rubik', sans-serif;
-  margin-left: 10%;
-  margin-top: 0px;
-  }
+
   #presents{
 
   margin-left: 20px;
-  font-size: 4rem;
+  font-size: 5rem;
   margin-top: 230px;
   font-family: 'Rubik Doodle Shadow', system-ui;
   
   
   }
   #Abhedya{
-  font-size: 4rem;
+  font-size: 5rem;
   font-family: 'Rubik Doodle Shadow', system-ui;
   margin-left: 20px;
   }
@@ -343,7 +335,7 @@ display: block;
 
    @media (max-width: 1000px) {
     .message{
-    font-size: 1.5rem;
+    font-size: 5rem;
     line-height: 30px;
     width: 90%;
     font-family: 'Rubik', sans-serif;

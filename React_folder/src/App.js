@@ -2,14 +2,15 @@ import React from "react";
 //  import Navbar from "./components/Navbar/Navbar";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 // import Home from "./components/Home_page/Home";
-// import Leaderboard from "./components/Leaderboard/Leaderboard";
+import Leaderboard from "./components/Leaderboard/Leaderboard";
 // import Rules from "./components/Rules/Rules";
 //  import Forgot from "./components/Forgot/Forgot";
 // import Login from "./components/Login/Login";
 
 //  import Sign_up from "./components/Sign_up/Signup";
   import Navbar_new from "./Navbar_new/Navbar";
- import Home from "./components/Home_page_new/Home";
+ import Home from "./components/Navbar/Home_page_new/Home";
+ 
 
 
 
@@ -24,6 +25,8 @@ function App(){
 
       
       <Route path="/home" element={<><Navbar_new/><Home/></>}/>
+      <Route path="/leaderboard" element={<><Navbar_new/><Leaderboard/></>}/>
+      {/* <Route path="/login" element={<><Navbar_new/><Login/></>}/> */}
 
 
 
