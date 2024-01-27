@@ -36,13 +36,13 @@ function App(){
     <Routes>
 
 
-       <Route path="/Login" element={<> <Login/></> }/>  
-      <Route path="/Signup" element={<> <Signup/></> }/>
+       <Route path="/Login" element={<> <Navbar_new/><Login/></> }/>  
+      <Route path="/Signup" element={<> <Navbar_new/> <Signup/></> }/>
       {/* <Route path="/New_home" element={<> <Newhome/></> }/>   */}
-      <Route path="/Leaderboard" element={<> <Leaderboard/></> }/> 
-       <Route path="/Rules" element={<><Rules/> </>}/> 
-       <Route path="/Forgot" element={<><Forgot/> </>}/> 
-       <Route path="/" element={<><Timelines/> </>}/>  
+      <Route path="/Leaderboard" element={<>  <Navbar_new/><Leaderboard/></> }/> 
+       <Route path="/Rules" element={<> <Navbar_new/><Rules/> </>}/> 
+       <Route path="/Forgot" element={<><Navbar_new/><Forgot/> </>}/> 
+       <Route path="/" element={<><Navbar_new/><Timelines/> </>}/>  
         {/* <Route path="/" element={<><Home/> </>}/>    */}
         <Route path="/Nav" element={<> <Navbar_new/></> }/> 
     
