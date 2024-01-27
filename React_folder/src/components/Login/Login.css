@@ -55,6 +55,7 @@ margin-top: 0px;
 text-align: center;
 font-size: 8rem;
 padding-top: 0px;
+margin-left: -70px;
 }
 
 
@@ -63,7 +64,7 @@ padding-top: 0px;
 display: flex;
 flex-direction: column;
 margin-top: 10px;
-margin-left: 40px;
+margin-left: 0px;
 width: 400px;
 font-size: 35px;
 }
@@ -86,13 +87,13 @@ margin-top: 15px;
 
 #Buttonlogin{
 height: 50px;
-width: 140px;
+width: 70%;
 border: solid white 1px;
 background-color:rgb(167, 99, 66,.3)  ;
 border-radius: 5px;
 font-size: 2rem;
 color: white;
-margin-left: 40px;
+margin-left: -50px;
 
 
 }
@@ -108,6 +109,7 @@ border: solid white 4px;
 margin-top: 15px;
 text-align: center;
 font-size: 2.5rem;
+margin-left: -50px;
 
 
 }
@@ -122,58 +124,117 @@ margin-top: 20px;
 
 
 @media screen and (max-width: 768px) {
-  .cardlogin,
-  .mainheaderlogin {
+  .cardlogin {
       width: 100%;
       margin-left: 0;
-  }
-  .password{
-    width: 70%;
+      height: auto;
   }
 
-  .buttonlogin {
-      margin-left: 60px;
+  .mainheaderlogin {
+      font-size: 3rem;
+      margin-left: 5%;
+  }
+
+  .componentslogin {
+      width: 80%;
+      margin-left: 10%;
+      font-size: 2rem;;
   }
 
   input {
+      width: 100%;
+  }
+
+
+
+  #Buttonlogin {
+      width: 30%;
+margin-left: 10%;
+      font-size: 2rem;
+      margin-top: -20px;
+  }
+
+  .textlogin {
+      font-size: 2rem;
+  }
+}
+
+
+@media screen and (max-width: 1000px) {
+  .cardlogin {
+      width: 100%;
+      margin-left: 17%;
+      height: auto;
+  }
+
+  .mainheaderlogin {
+      font-size: 3rem;
+
+  }
+
+  .componentslogin {
       width: 80%;
+      margin-left: 10%;
+      font-size: 2rem;;
+  }
+
+  input {
+      width: 100%;
+  }
+
+
+
+  #Buttonlogin {
+      width: 30%;
+margin-left: 0;
+      font-size: 2rem;
+      margin-top: -20px;
+  }
+
+  .textlogin {
+      font-size: 2rem;
   }
 }
 
 @media screen and (min-width: 768px) {
   .cardlogin {
-    max-width: 70%;
+      max-width: 70%;
   }
+
   .mainheaderlogin {
-    font-size: 2rem;
-    margin-left: 5%;
+      font-size: 8rem;
+      margin-left: 15%;
   }
 
   input {
-    font-size: 16px;
-    margin-left: 0px;
+      font-size: 4rem;
+      margin-left: 0;
   }
+
   .buttonlogin {
-    margin-left: 5%
+      margin-left: 10%;
+  }
 }
-
-}
-
 
 @media screen and (max-width: 480px) {
   .cardlogin {
-    padding: 15px;
+      padding: 10px;
   }
 
   .mainheaderlogin {
-    font-size: 2rem;
-    margin-left:5;
+      font-size: 3rem;
+      margin-left: 5%;
   }
 
   input {
-    font-size: 16px;
-    margin-left: 0px;
+      font-size: 2rem;
+      margin-left: 0;
+  }
+
+  .buttonlogin {
+      margin-left: 5%;
   }
 }
+
 
 

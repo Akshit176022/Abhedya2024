@@ -45,3 +45,39 @@
     border: none;
     border-radius: 5px;
   }
+
+
+  @media (max-width: 768px) {
+    .game-container {
+      width: 80%;
+      margin-top: 150px;
+    }
+  
+    .level1 {
+      font-size: 40px;
+    }
+  
+    .question-text {
+      font-size: 20px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .game-container {
+      width: 90%;
+      margin-top: 100px;
+    }
+  
+    .level1 {
+      font-size: 30px;
+    }
+  
+    .question-text {
+      font-size: 16px;
+    }
+  
+    input,
+    button {
+      font-size: 14px;
+    }
+  }

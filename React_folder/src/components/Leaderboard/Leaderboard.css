@@ -45,7 +45,7 @@ body {
        align-items: center;
        padding: 10px;
        border-bottom: 1px solid #ddd;
-       height: 70px;
+       height: 60px;
        font-family: 'Rubik', sans-serif;
      }
  
@@ -71,8 +71,9 @@ body {
         width: 400px;
         margin-left: 25%;
         margin-top: 10%;
-
+        height: 80%;
       }
+
     }
  
      @media screen and (max-width: 1000px) {
@@ -80,6 +81,7 @@ body {
          width: 400px;
          margin-left: 25%;
          margin-top: 10%;
+         height: 80%;
  
        }
      }
@@ -88,6 +90,7 @@ body {
          width: 70%;
          margin-left: 15%;
          margin-top: 10%;
+         height: 80%;
          
        }
      }
@@ -95,6 +98,8 @@ body {
       .leaderboard {
         width: 90%;
         margin-left: 5%;
-        margin-top: 10%;
+        margin-top: 25%;
+        height: 80%;
+        font-size: 2rem;
       }
     }

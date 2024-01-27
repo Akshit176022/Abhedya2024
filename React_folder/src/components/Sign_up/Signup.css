@@ -122,12 +122,59 @@ font-size: 1.3rem;
 }
 
 
+@media screen and (max-width: 1000px) {
+    .cardsignup,
+    .mainsignup {
+    width: 100%;
+    margin: 0;
+    margin-top: 100px;
+    height: 600px;
+    
+    
+    
+    
+    
+    }
+    
+    .buttonsignup {
+    margin-left: 10%;
+    margin-top: 0px;
+    }
+    
+    input {
+    width: 80%;
+    }
+    
+    
+    
+    .componentssignup{
+    display: flex;
+    flex-direction: column;
+    margin-top: -10px;
+    margin-left: 60px;
+    }
+    
+    .text{
+    
+        margin-top: 10px;
+        text-align: center;
+        font-size: 2rem;
+        
+        
+        }
+    
+    }
+
+
 
 @media screen and (max-width: 768px) {
 .cardsignup,
 .mainsignup {
 width: 100%;
 margin: 0;
+margin-top: 100px;
+height: 600px;
+
 
 
 
@@ -135,18 +182,32 @@ margin: 0;
 }
 
 .buttonsignup {
-margin-left: 60px;
+margin-left: 10%;
+margin-top: 0px;
 }
 
 input {
 width: 80%;
 }
+
+
+
 .componentssignup{
-    display: flex;
-    flex-direction: column;
-    margin-top: 20px;
-    margin-left: 60px;
+display: flex;
+flex-direction: column;
+margin-top: -10px;
+margin-left: 60px;
+}
+
+.text{
+
+    margin-top: 10px;
+    text-align: center;
+    font-size: 2rem;
+    
+    
     }
+
 }
 
 @media screen and (max-width: 480px) {
