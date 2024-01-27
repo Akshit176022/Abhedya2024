@@ -24,8 +24,9 @@
   }
 
   .question-text {
-    font-size: 30px;
+    font-size: 25px;
     margin-bottom: 20px;
+    font-family: 'Poppins', sans-serif;
 
 
   }
@@ -46,6 +47,10 @@
     border-radius: 5px;
   }
 
+  button:hover {
+border: solid 4px white;
+
+  }
 
   @media (max-width: 768px) {
     .game-container {

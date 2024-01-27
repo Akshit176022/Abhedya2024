@@ -1,85 +1,96 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
 * {
-    margin: 0;
-    padding: 0;
-  }
-  
- 
-  
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
-   .timeline {
-    background: var(--primary-color);
-    margin: x auto;
-    padding: 20px;
-  } 
 
-  .timeline {
 
-    margin-top: 100px;
-  }
-  
-  
-  .outer {
-    border-left: 2px solid #333;
-    margin-left: 300px;
-  }
-  
-  /* Card container */
-  .cardtimeline{
-    position: relative;
-    margin: 0 0 20px 20px;
-    padding: 10px;
-    background: #90909067;
-    border: 1px solid rgb(255, 255, 255);
-    box-shadow: 10px;
-    color: rgba(255, 255, 255, 0.875);
-    border-radius: 10px;
-width: 800px;
-    height: 100px;
-  
-  }
-  
-  
+.timeline {
+  background: var(--primary-color);
 
-  /* Information about the timeline */
-  .info {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-  }
-  
-  .card >.info > h3 {
-    background-color: #393939a8;
-    padding: 5px;
-    border-radius: 3px
-  } 
+  padding: 20px;
+  margin-top: 100px;
 
-  /* Title of the card */
-  .title {
-    color: orangered;
-    position: relative;
-  }
   
-  /* Timeline dot  */
-  .title::before {
-    content: "";
+}
+
+.outer {
+  border-left: 2px solid #333;
+
+  
+}
+
+.cardtimeline {
+  position: relative;
+  margin: 0 0 20px 20px;
+  padding: 20px;
+  background: rgba(74 32 85 / .3);
+  border: 1px solid rgb(255, 255, 255);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  color: rgba(255, 255, 255, 0.9);
+  border-radius: 10px;
+  max-width: 900px;
+  width: 100%;
+
+  
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.titletimeline {
+color: white;
+font-family: 'Space Age', sans-serif;
+  position: relative;
+background-color: rgb(128, 0, 128,.5);
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 30px;
+
+;
+}
+
+.titletimeline::before {
+  content: "";
   position: absolute;
   width: 10px;
   height: 10px;
   background: white;
-  border-radius: 999px;
-  left: -39px;
+  border-radius: 50%;
+  left: -20px;
+  top: 50%;
+  transform: translateY(-50%);
   border: 3px solid orangered;
+
+
 }
-  
-  
-  
-@media (min-width: 900px) {
-  .cardtimeline {
-    max-width: 800px;
+
+p{
+  font-size: 22px;
+  font-family: 'Poppins', sans-serif;
+
+}
+
+@media (min-width: 768px) {
+  .outer {
+      margin-left: 10%;
   }
 }
+
+@media (min-width: 900px) {
+  .cardtimeline {
+      max-width: 800px;
+  }
+}
+
 @media (min-width: 850px) {
   .cardtimeline {
-    max-width: 775px;
+      max-width: 775px;
   }
 }

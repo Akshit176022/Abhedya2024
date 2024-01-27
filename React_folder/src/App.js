@@ -6,6 +6,7 @@ import Signup from "./components/Sign_up/Signup";
 import Leaderboard from "./components/Leaderboard/Leaderboard";
  import Rules from "./components/Rules/Rules";
 import Forgot from "./components/Forgot/Forgot";
+// import Faqs from "./components/Faq/Faq";
 
 
 
@@ -16,6 +17,8 @@ import Fnav from "./components/Final_navbar/navbar";
 import Fhome from "./components/Final_home/home";
 import Game from "./components/Game/game";
 import Footer from "./components/footer/footer";
+
+
 
 
 
@@ -52,6 +55,7 @@ function App(){
         <Route path="/rules" element={<> <Fnav/><Rules/><Footer/></> }/> 
         <Route path="/forgot" element={<> <Fnav/><Forgot/><Footer/></> }/> 
         <Route path="/login" element={<> <Fnav/><Login/><Footer/></> }/> 
+
 
 
 
