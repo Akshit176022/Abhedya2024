@@ -43,7 +43,6 @@ function App(){
 <BrowserRouter>
     <Routes>
 
-    <Route path="/Login" element={<> <Fnav/><Login/></> }/> 
 
         <Route path="/" element={<> <Fnav/><Fhome/><Footer/></> }/> 
         <Route path="/Sign" element={<> <Fnav/><Signup/></> }/> 
@@ -55,13 +54,6 @@ function App(){
 
 
 
-
-        
-
- 
-        
-
-    
     
 
 
