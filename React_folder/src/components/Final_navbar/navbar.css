@@ -403,7 +403,7 @@
     /* color: var(--marigold); */
     background: linear-gradient(to right, #f32170, #ff6b08,#cf23cf, #eedd44);
     -webkit-text-fill-color: transparent;
-    -webkit-background-clip: text;
+
     font-size: var(--fs-6);
     font-weight: var(--fw-700);
     text-transform: uppercase;
