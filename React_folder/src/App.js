@@ -6,6 +6,7 @@ import Signup from "./components/Sign_up/Signup";
 import Leaderboard from "./components/Leaderboard/Leaderboard";
  import Rules from "./components/Rules/Rules";
 import Forgot from "./components/Forgot/Forgot";
+import {Link} from "react-router-dom";
 
 
 
@@ -41,11 +42,13 @@ function App(){
 
     <Route path="/Login" element={<> <Fnav/><Login/></> }/> 
 
-        <Route path="/Fhome" element={<> <Fnav/><Fhome/></> }/> 
+        <Route path="/" element={<> <Fnav/><Fhome/></> }/> 
         <Route path="/Sign" element={<> <Fnav/><Signup/></> }/> 
         <Route path="/Leaderboard" element={<> <Fnav/><Leaderboard/></> }/> 
         <Route path="/Time" element={<> <Fnav/><Timelines/></> }/> 
         <Route path="/Game" element={<> <Fnav/><Game/></> }/> 
+        <Route path="/rules" element={<> <Fnav/><Rules/></> }/> 
+
 
 
         

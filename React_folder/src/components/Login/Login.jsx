@@ -33,8 +33,8 @@ function Login (){
         </form>
 
         <div class="textlogin">
-            <div class="forgot"><a href="#">Forgot Password?</a></div>
-            <div class="Signup"><a href="#">Don't have an account? Sign Up</a></div>
+            <div class="forgot"><a href="/forgot">Forgot Password?</a></div>
+            <div class="Signup"><a href="/sign">Don't have an account? Sign Up</a></div>
 
         </div>
     </div>

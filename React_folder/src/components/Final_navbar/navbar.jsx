@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import "./navbar.css";
+import {Link} from "react-router-dom"
 
 function Navbar_new() {
   const [isActive, setIsActive] = useState(false);
@@ -41,23 +42,23 @@ function Navbar_new() {
             <ul className="navbar-list">
 
               <li className="navbar-item">
-                <a href="#home" className="navbar-link skewBg" data-nav-link onClick={closeMenu}>Home</a>
+                <a href="/game" className="navbar-link skewBg" data-nav-link onClick={closeMenu}>Play Game</a>
               </li>
 
               <li className="navbar-item">
-                <a href="#live" className="navbar-link skewBg" data-nav-link onClick={closeMenu}>Guide</a>
+                <a href="/Time" className="navbar-link skewBg" data-nav-link onClick={closeMenu}>Timeline</a>
               </li>
 
               <li className="navbar-item">
-                <a href="#features" className="navbar-link skewBg" data-nav-link onClick={closeMenu}>Leaderboard</a>
+                <a href="/Leaderboard" className="navbar-link skewBg" data-nav-link onClick={closeMenu}>Leaderboard</a>
               </li>
 
               <li className="navbar-item">
-                <a href="#shop" className="navbar-link skewBg" data-nav-link onClick={closeMenu}>Login</a>
+                <a href="/Login" className="navbar-link skewBg" data-nav-link onClick={closeMenu}>Login</a>
               </li>
 
               <li className="navbar-item">
-                <a href="#" className="navbar-link skewBg" data-nav-link onClick={closeMenu}>Contact</a>
+                <a href="/rules" className="navbar-link skewBg" data-nav-link onClick={closeMenu}>Rules</a>
               </li>
 
             </ul>

@@ -80,7 +80,7 @@ font-size: 4rem;
 }
 .buttonlogin{
 margin-left: 0px;
-margin-top: 40px;
+margin-top: 15px;
 
 }
 
@@ -90,7 +90,7 @@ width: 140px;
 border: solid white 1px;
 background-color:rgb(167, 99, 66,.3)  ;
 border-radius: 5px;
-font-size: 4rem;
+font-size: 2rem;
 color: white;
 margin-left: 40px;
 
@@ -100,19 +100,19 @@ margin-left: 40px;
 #Buttonlogin:hover{
 cursor: pointer;
 border: solid white 4px;
-margin-left: 60px;
+
 }
 
 .textlogin{
 
-margin-top: 30px;
+margin-top: 15px;
 text-align: center;
-font-size: 3rem;
+font-size: 2.5rem;
 
 
 }
 .textlogin:hover{
-  font-size: 1.5rem;
+  font-size: 3rem;
 }
 .Signup{
 margin-top: 20px;
