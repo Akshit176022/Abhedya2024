@@ -25,7 +25,7 @@ function App(){
 
       
       <Route path="/home" element={<><Navbar_new/><Home/></>}/>
-      <Route path="/leaderboard" element={<><Navbar_new/><Leaderboard/></>}/>
+      {/* <Route path="/leaderboard" element={<><Navbar_new/><Leaderboard/></>}/> */}
       {/* <Route path="/login" element={<><Navbar_new/><Login/></>}/> */}
 
 
