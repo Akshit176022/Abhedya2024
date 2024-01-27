@@ -22,7 +22,7 @@ background-image: url(../../../public/image/bg.png);
 color: white;
 background-size: cover;
 background-repeat:  no-repeat;
-height: 120vh;
+
 background-position: center;
 backdrop-filter: blur(5px);
 padding: 20px;

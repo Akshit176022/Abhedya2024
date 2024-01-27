@@ -4,7 +4,7 @@ import "./footer.css" ;
 function footer() {
     return (
         <>
-        <body>
+
         <div class="naman">
         <footer class="footer">
         
@@ -39,7 +39,7 @@ function footer() {
     <p>&copy;ISTE NITH | All Rights Reserved</p>
   </footer>
   </div>
-  </body>
+
         </>
     );
 }

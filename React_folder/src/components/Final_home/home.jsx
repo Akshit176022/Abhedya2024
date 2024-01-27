@@ -6,7 +6,8 @@ import "./home.css";
 
 function Home(){
     return(
-    <><body id="top">
+    <>
+
     
     <section class="section hero" id="home" aria-label="home"  >
          <div class="container">
@@ -56,8 +57,8 @@ function Home(){
           </div>
         </div>
       </section>
-  </body>
-    </>
+  </>
+
 
 
 

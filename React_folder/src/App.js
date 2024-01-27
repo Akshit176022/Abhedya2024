@@ -45,12 +45,13 @@ function App(){
 
 
         <Route path="/" element={<> <Fnav/><Fhome/><Footer/></> }/> 
-        <Route path="/Sign" element={<> <Fnav/><Signup/></> }/> 
-        <Route path="/Leaderboard" element={<> <Fnav/><Leaderboard/></> }/> 
-        <Route path="/Time" element={<> <Fnav/><Timelines/></> }/> 
-        <Route path="/Game" element={<> <Fnav/><Game/></> }/> 
-        <Route path="/rules" element={<> <Fnav/><Rules/></> }/> 
-        <Route path="/forgot" element={<> <Fnav/><Forgot/></> }/> 
+        <Route path="/Sign" element={<> <Fnav/><Signup/><Footer/></> }/> 
+        <Route path="/Leaderboard" element={<> <Fnav/><Leaderboard/><Footer/></> }/> 
+        <Route path="/Time" element={<> <Fnav/><Timelines/><Footer/></>}/> 
+        <Route path="/Game" element={<> <Fnav/><Game/><Footer/></> }/> 
+        <Route path="/rules" element={<> <Fnav/><Rules/><Footer/></> }/> 
+        <Route path="/forgot" element={<> <Fnav/><Forgot/><Footer/></> }/> 
+        <Route path="/login" element={<> <Fnav/><Login/><Footer/></> }/> 
 
 
 
