@@ -38,7 +38,7 @@ border-radius: 20px;
 box-shadow: rgba(9, 9, 9, 0.25) 0px 54px 55px, rgba(2, 0, 0, 0.12) 0px -12px 30px, rgba(14, 6, 6, 0.12) 0px 4px 6px, rgba(16, 15, 15, 0.17) 0px 12px 13px, rgba(3, 1, 1, 0.09) 0px -3px 5px;
 width: 450px;
 height: 600px;
-margin-left: 470px;
+margin: auto;
 margin-top:150px;
 }
 
@@ -94,7 +94,7 @@ background-color:rgb(167, 99, 66,.3)  ;
 border-radius: 5px;
 font-size: 2rem;
 color: white;
-margin-left: -50px;
+
 
 
 }
