@@ -18,15 +18,15 @@ function Home(){
         
         <div class="middle">
             
-            <div class="ANIMATION"><h1>
-                <span class="word" id="presents">ISTE    PRESENTS <span class="superscript"></span> </span>
-                <span class="word" id="Abhedya">ABHEDYA 3.0</span>
+            <div class="ANIMATION "> <h1>
+                <span class="word " id="presents">ISTE     PRESENTS  </span>
+                <span class="word" id="Abhedya">ABHEDYA    3.0</span>
               </h1></div>
            
           </div>
           
   
-          <h1 class="h1 hero-title">
+          <h1 class="h1 hero-title ">
             Online <span class="span">Cryptic</span> Hunt
           </h1>
   

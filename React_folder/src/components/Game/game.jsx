@@ -4,7 +4,7 @@ import "./game.css";
 function game (){
     return(
         <>
-
+<div className="gamecont">
 <div class="level-1">
 
   <div class="game-container">
@@ -13,6 +13,7 @@ function game (){
     <input type="text" placeholder="Type your answer"/>
     <button disabled>Submit Answer</button>
   </div>
+</div>
 </div>
 
 

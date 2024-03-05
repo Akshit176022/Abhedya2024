@@ -55,6 +55,8 @@ function App(){
         <Route path="/rules" element={<> <Fnav/><Rules/><Footer/></> }/> 
         <Route path="/forgot" element={<> <Fnav/><Forgot/><Footer/></> }/> 
         <Route path="/login" element={<> <Fnav/><Login/><Footer/></> }/> 
+        <Route path="/nav" element={<> <Fnav/></> }/> 
+
 
 
 

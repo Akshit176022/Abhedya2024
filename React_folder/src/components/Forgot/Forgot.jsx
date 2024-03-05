@@ -5,6 +5,9 @@ function Forgot(){
     return(
         <>
 
+<div className="forcontainer">
+
+
 
 <div class="forgot-password-container">
     <h2>Forgot Password</h2>
@@ -16,6 +19,7 @@ function Forgot(){
     </form>
 </div>
 
+</div>
 
 
 

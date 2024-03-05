@@ -7,7 +7,7 @@ function Rules(){
     return(
  
 <>
-<div class="container">
+<div class="containerrules">
         <div class="rules">
             <div class="heading">
                 Rules

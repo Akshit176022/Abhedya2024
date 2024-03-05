@@ -5,9 +5,21 @@
 /**
  * copyright 2022 codewithsadee
  */
+ @font-face {
+  font-family: 'Poppins', sans-serif;
+font-style: normal;
+font-weight: 400;
+src: url(../../../public/font/Poppins-Black.ttf)
+}
 
 
 
+@font-face {
+  font-family: "MODERN WARFARE";
+font-style: normal;
+font-weight: 400;
+src: url(../../../public/font/ModernWarfare-OV7KP.ttf)
+}
 
 
 /*-----------------------------------*\
@@ -241,7 +253,7 @@
   }
   
   .btn::after {
-    content: url("../../../public/image/title-underline.png");
+
     position: absolute;
     top: 0;
     bottom: 0;
@@ -519,7 +531,7 @@
   \*-----------------------------------*/
   
   
-  @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap");
+
   
   
   
@@ -1191,12 +1203,7 @@
 
 
 
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Rubik+Doodle+Shadow&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Rubik+Doodle+Shadow&family=Rubik:wght@300&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Rubik+Doodle+Shadow&family=Rubik:wght@300&family=Space+Mono&display=swap');
-@import url('https://fonts.cdnfonts.com/css/space-age');
+
 
 * {
     margin: 0;
@@ -1204,7 +1211,7 @@
     box-sizing: border-box;
   }
 
-  @import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600");
+
 
   :root {
     --bar-scale-y: 0;
@@ -1253,7 +1260,7 @@
 
   h1 {
     color: white;
-    font-family: "Playfair Display", Vidaloka, serif;
+  font-family: 'cursive';
     font-size: 8rem;
   
     line-height: 1;
@@ -1266,14 +1273,14 @@
     animation: show 0.01s forwards, pop-word 1.5s forwards;
     animation-timing-function: cubic-bezier(0.14, 1.23, 0.33, 1.16);
     opacity: 0;
-    font-family: 'Orbitron', sans-serif;
+    font-family: 'cursive';
     transform: rotateX(120deg);
     transform-origin: 50% 100%;
   }
   
   .word:nth-of-type(2) {
     padding: 0 2rem;
-    font-family: 'Orbitron', sans-serif;
+    font-family: 'cursive';
     animation-delay: 1.5s;
   
     color: gold;
@@ -1369,23 +1376,25 @@
   
     transform: scale(0);
   }
-  #presents{
-    font-size: 5rem;
+  /* #presents{
+    font-size: 10rem;
     margin-left: 0px;
    margin-top: -600px;
     text-align: center;
-    font-family: 'Orbitron', sans-serif;
+    font-family: 'cursive'
   }
 #Abhedya{
     color: white;
     font-size: 5rem;
     margin-left: 0px;
-    font-family: 'Orbitron', sans-serif;
+    font-family: 'cursive';
     text-align: center;
     
-}
+} */
 
-.message
+
+
+/* .message
 {
 
 width: 800px;
@@ -1393,7 +1402,7 @@ font-size: 1.4rem;
 line-height: 30px;
 height: 300px;
 color: white ;
-font-family: 'Rubik', sans-serif;
+
 background-color: rgb(61, 46, 51,.4);
 border-radius: 20px;
 box-shadow: rgba(241, 239, 239, 0.25) 0px 54px 55px, rgba(249, 247, 247, 0.12) 0px -12px 30px, rgba(239, 237, 237, 0.12) 0px 4px 6px, rgba(249, 248, 248, 0.17) 0px 12px 13px, rgba(247, 245, 245, 0.09) 0px -3px 5px;
@@ -1402,7 +1411,7 @@ margin-left: 350px;
 margin-top: 50px;
 
 
-}
+} */
   
   @media screen and (max-width: 600px) {
     h1 {
@@ -1417,13 +1426,12 @@ margin-top: 50px;
         margin-left: 20px;
         font-size: 2.5rem;
         margin-top: 150px;
-        font-family: 'Orbitron', sans-serif
+        font-family: 'Poppins', sans-serif;
         
     }
     #Abhedya{
         font-size: 2.5rem;
-
-        font-family: 'Orbitron', sans-serif
+        font-family: 'Poppins', sans-serif;
 
        
     }
@@ -1438,18 +1446,18 @@ margin-top: 50px;
 
 #presents{
 margin-left: 20px;
-font-size: 8rem;
+font-size: 7rem;
 margin-top: 200px;
-font-family: 'Rubik Doodle Shadow', system-ui;
-margin-top: -100px;
+font-family:"MODERN WARFARE" ;
+margin-top: -80px;
 margin-left: -100px;
 
 
 }
 #Abhedya{
-font-size: 8rem;
-
-font-family: 'Rubik Doodle Shadow', system-ui;
+font-size: 7rem;
+font-family:"MODERN WARFARE" ;
+color: white;
 font-size: rem;
 margin-left: -100px;
 padding-bottom: 100px;
@@ -1502,13 +1510,13 @@ height: 320px;
 margin-left: 20px;
 font-size: 4rem;
 margin-top: 230px;
-font-family: 'Rubik Doodle Shadow', system-ui;
+font-family: 'Poppins', sans-serif;
 
 
 }
 #Abhedya{
 font-size: 4rem;
-font-family: 'Rubik Doodle Shadow', system-ui;
+font-family: 'Poppins', sans-serif;
 margin-left: 20px;
 }
 
@@ -1529,13 +1537,13 @@ margin-top: 0px;
 margin-left: 20px;
 font-size: 4rem;
 margin-top: 230px;
-font-family: 'Rubik Doodle Shadow', system-ui;
+font-family: 'Poppins', sans-serif;
 
 
 }
 #Abhedya{
 font-size: 4rem;
-font-family: 'Rubik Doodle Shadow', system-ui;
+font-family: 'Poppins', sans-serif;
 margin-left: 20px;
 }
 
@@ -1576,13 +1584,13 @@ margin-top: 50px;
   margin-left: 20px;
   font-size: 8rem;
   margin-top:-100px;
-  font-family: 'Rubik Doodle Shadow', system-ui;
+  font-family: 'Poppins', sans-serif;
   
   
   }
   #Abhedya{
   font-size: 8rem;
-  font-family: 'Rubik Doodle Shadow', system-ui;
+  font-family: 'Poppins', sans-serif;
   margin-left: 20px;
   }
   
@@ -1603,14 +1611,14 @@ font-family: 'Rubik', sans-serif;
 margin-left: 20px;
 font-size: 5rem;
 margin-top: -100pxpx;
-font-family: 'Rubik Doodle Shadow', system-ui;
+font-family: 'Poppins', sans-serif;
 
 
 }
 #Abhedya{
 font-size: 5rem;
 
-font-family: 'Rubik Doodle Shadow', system-ui;
+font-family: 'Poppins', sans-serif;
 margin-left: 20px;
 }
 
@@ -1629,14 +1637,14 @@ margin-left: 5%;
 
 font-size: 4.5rem;
 margin-top: 10px;
-font-family: 'Rubik Doodle Shadow', system-ui;
+font-family: cursive;
 margin-left: -20px;
 
 }
 #Abhedya{
 font-size: 4.5rem;
 
-font-family: 'Rubik Doodle Shadow', system-ui;
+font-family: 'Poppins', sans-serif;
 margin-left: -40px;
 margin-top: 10px;
 }
@@ -1645,20 +1653,12 @@ margin-top: 10px;
 
 }
 @media (max-width: 390px) {
-  .message{
-  font-size: 1rem;
-  line-height: 20px;
-  width: 90%;
-  font-family: 'Rubik', sans-serif;
-  margin-left: 5%;
 
-
-  }
   #presents{
   margin-left: 20px;
   font-size: 4rem;
   margin-top: 0px;
-  font-family: 'Rubik Doodle Shadow', system-ui;
+  font-family: cursive;
   margin-left: -0px;
   
   
@@ -1666,7 +1666,7 @@ margin-top: 10px;
   #Abhedya{
   font-size: 4rem;
   
-  font-family: 'Rubik Doodle Shadow', system-ui;
+  font-family: cursive;
   margin-left: 20px;
   }
   
@@ -1681,7 +1681,7 @@ margin-top: 10px;
 {
 
 width: 800px;
-font-size: 2rem;
+font-size: 1rem;
 line-height: 30px;
 height: 300px;
 color: white ;
@@ -1697,18 +1697,39 @@ margin-top: 50px;
 }
  .section-title{
   font-family: 'Space Age', sans-serif;   
-  font-size: 45px;
+  font-size: 5rem;
+  margin: auto;
+  margin-top: -5%;
 }
 
+.container3{
+  background-color:rgb(46, 26, 69,.5) ;
+  font-family: 'Poppins', sans-serif;
+  font-size: 2.5rem;
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: rgba(249, 248, 248, 0.25) 0px 54px 55px, rgba(243, 240, 240, 0.12) 0px -12px 30px, rgba(249, 245, 245, 0.12) 0px 4px 6px, rgba(246, 241, 241, 0.17) 0px 12px 13px, rgba(249, 245, 245, 0.09) 0px -3px 5px;
+  margin: auto;
+margin-top: 5%;
+ width: 80%;
+height: 80%;
+}
 #aboutcontent{
-  font-size: 25px;
+
+  font-size: 2.7rem;
 
   color: white;
   font-family: var(--ff-poppins);
+  line-height: 40px;
 
 }
 .hero-title{
   font-family: 'Space Age', sans-serif;   
-  font-size: 50px;
+  font-size: 3rem;
 
+}
+
+.hero-text{
+  font-size: 1.5rem;
+  
 }
