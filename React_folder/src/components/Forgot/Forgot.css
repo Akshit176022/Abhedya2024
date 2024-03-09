@@ -1,16 +1,4 @@
 
-/* body {
-
-  background-image: url(../../../public/image/bg.png);
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-position: fixed;
-  backdrop-filter: blur(5px);
-  font-family: 'Rubik', sans-serif;
-  height: 110vh;
-
-} */
 a{
     text-decoration: none;
 }
@@ -43,20 +31,7 @@ h2 {
     font-family: cursive;
 }
 
-/* label {
-    display: block;
-    margin: 10px 0;
-} */
 
-/* input {
-    width: 100%;
-    padding: 8px;
-    margin-bottom: -20px;
-    box-sizing: border-box;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-
-} */
 
 button{
     background-color: #1a273570;

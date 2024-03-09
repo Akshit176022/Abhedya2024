@@ -10,7 +10,7 @@ src: url(../../../public/font/Poppins-Black.ttf)
 
 .level1{
     font-size: 60px;
-    font-family: "space-mission"; 
+    font-family: 'Space Age', sans-serif;  
 }
 
   .game-container {
@@ -18,16 +18,16 @@ src: url(../../../public/font/Poppins-Black.ttf)
     background-color: rgba(114 35 100 / .5);
     padding: 20px;
     border-radius: 10px;
-    width: 70%;
+    width: 80%;
     margin: auto;
     margin-top: 200px;
     box-shadow: rgba(249, 248, 248, 0.25) 0px 54px 55px, rgba(243, 240, 240, 0.12) 0px -12px 30px, rgba(249, 245, 245, 0.12) 0px 4px 6px, rgba(246, 241, 241, 0.17) 0px 12px 13px, rgba(249, 245, 245, 0.09) 0px -3px 5px;
   }
 
   .question-text {
-    font-size: 25px;
+    font-size: 4rem;
     margin-bottom: 20px;
-    font-family: 'Poppins', sans-serif;
+font-family: cursive;
   }
 
   input {
@@ -55,14 +55,17 @@ border: solid 4px white;
     .game-container {
       width: 80%;
       margin-top: 150px;
+
     }
   
     .level1 {
-      font-size: 40px;
+      font-size: 6rem;
+      font-family: 'Space Age', sans-serif;  
     }
   
     .question-text {
-      font-size: 20px;
+      font-size:3rem;
+      font-family: cursive;
     }
   }
   
@@ -70,14 +73,17 @@ border: solid 4px white;
     .game-container {
       width: 90%;
       margin-top: 100px;
+ 
     }
   
     .level1 {
-      font-size: 30px;
+      font-size: 4rem;
+      font-family: 'Space Age', sans-serif;  
     }
   
     .question-text {
-      font-size: 16px;
+      font-size: 2rem;
+      font-family: cursive;
     }
   
     input,

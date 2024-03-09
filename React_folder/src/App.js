@@ -47,15 +47,15 @@ function App(){
     <Routes>
 
 
-        <Route path="/" element={<> <Fnav/><Fhome/><Footer/></> }/> 
-        <Route path="/Sign" element={<> <Fnav/><Signup/><Footer/></> }/> 
-        <Route path="/Leaderboard" element={<> <Fnav/><Leaderboard/><Footer/></> }/> 
-        <Route path="/Time" element={<> <Fnav/><Timelines/><Footer/></>}/> 
-        <Route path="/Game" element={<> <Fnav/><Game/><Footer/></> }/> 
-        <Route path="/rules" element={<> <Fnav/><Rules/><Footer/></> }/> 
-        <Route path="/forgot" element={<> <Fnav/><Forgot/><Footer/></> }/> 
-        <Route path="/login" element={<> <Fnav/><Login/><Footer/></> }/> 
-        <Route path="/nav" element={<> <Fnav/></> }/> 
+        <Route path="/" element={<div className="App"> <Fnav/><Fhome/><Footer/> </div>}/> 
+        <Route path="/Sign" element={<div className="App"><> <Fnav/><Signup/><Footer/></></div> }/> 
+        <Route path="/Leaderboard" element={<div className="App"><> <Fnav/><Leaderboard/><Footer/></></div> }/> 
+        <Route path="/Time" element={<div className="App"><> <Fnav/><Timelines/><Footer/></></div>}/> 
+        <Route path="/Game" element={<div className="App"><> <Fnav/><Game/><Footer/></> </div>}/> 
+        <Route path="/rules" element={<div className="App"><> <Fnav/><Rules/><Footer/></></div> }/> 
+        <Route path="/forgot" element={<div className="App"><> <Fnav/><Forgot/><Footer/></> </div>}/> 
+        <Route path="/login" element={<div className="App"><> <Fnav/><Login/><Footer/></></div> }/> 
+        <Route path="/nav" element={<div className="App"><> <Fnav/></> </div>}/> 
 
 
 

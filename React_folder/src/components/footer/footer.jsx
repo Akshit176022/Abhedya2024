@@ -5,7 +5,7 @@ function footer() {
     return (
         <>
 
-        {/* <div class="naman"> */}
+
         <footer class="footer">
         
       <div class="waves">

@@ -19,7 +19,7 @@ margin: auto;
 
 .heading{
     font-size: 60px;
-    font-family: cursive;
+font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 
@@ -27,7 +27,7 @@ margin: auto;
 
 
     background-color:rgb(46, 26, 69,.5) ;
-    font-family: 'Poppins', sans-serif;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 2.5rem;
     padding: 20px;
     border-radius: 20px;
@@ -47,6 +47,10 @@ margin-top: 20%;
 
 
 @media screen and (max-width: 1200px) {
+
+    .containerrules{
+        width: 100%;
+    }
     .rules {
 
         margin: auto;
@@ -55,6 +59,9 @@ margin-top: 20%;
 }
 
 @media screen and (max-width: 800px) {
+    .containerrules{
+        width: 100%;
+    }
     .rules {
 
         margin: auto;
@@ -63,16 +70,25 @@ margin-top: 20%;
 }
 
 @media screen and (max-width: 600px) {
+    .containerrules{
+        width: 100%;
+    }
     .rules {
         max-width: 100%;
          margin: auto;
          margin-top: 30%;
-        font-size: 17px;
+        font-size: 2.5rem;
 
     }
 }
 @media screen and (max-width:468px){
+
+    .containerrules{
+        width: 100%;
+
+    }
     .rules{
         margin-top: 30%;
+        font-size: 2rem;
     }
 }

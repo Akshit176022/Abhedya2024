@@ -1376,42 +1376,6 @@ src: url(../../../public/font/ModernWarfare-OV7KP.ttf)
   
     transform: scale(0);
   }
-  /* #presents{
-    font-size: 10rem;
-    margin-left: 0px;
-   margin-top: -600px;
-    text-align: center;
-    font-family: 'cursive'
-  }
-#Abhedya{
-    color: white;
-    font-size: 5rem;
-    margin-left: 0px;
-    font-family: 'cursive';
-    text-align: center;
-    
-} */
-
-
-
-/* .message
-{
-
-width: 800px;
-font-size: 1.4rem;
-line-height: 30px;
-height: 300px;
-color: white ;
-
-background-color: rgb(61, 46, 51,.4);
-border-radius: 20px;
-box-shadow: rgba(241, 239, 239, 0.25) 0px 54px 55px, rgba(249, 247, 247, 0.12) 0px -12px 30px, rgba(239, 237, 237, 0.12) 0px 4px 6px, rgba(249, 248, 248, 0.17) 0px 12px 13px, rgba(247, 245, 245, 0.09) 0px -3px 5px;
-padding: 25px;
-margin-left: 350px;
-margin-top: 50px;
-
-
-} */
   
   @media screen and (max-width: 600px) {
     h1 {
@@ -1426,12 +1390,12 @@ margin-top: 50px;
         margin-left: 20px;
         font-size: 2.5rem;
         margin-top: 150px;
-        font-family: 'Poppins', sans-serif;
+        font-family:"MODERN WARFARE" ;
         
     }
     #Abhedya{
         font-size: 2.5rem;
-        font-family: 'Poppins', sans-serif;
+        font-family:"MODERN WARFARE" ;
 
        
     }
@@ -1449,7 +1413,7 @@ margin-left: 20px;
 font-size: 7rem;
 margin-top: 200px;
 font-family:"MODERN WARFARE" ;
-margin-top: -80px;
+margin-top: -3%;
 margin-left: -100px;
 
 
@@ -1462,136 +1426,159 @@ font-size: rem;
 margin-left: -100px;
 padding-bottom: 100px;
 
+}
 
+.section-title{
+  font-family: 'Space Age', sans-serif;   
+  font-size: 5rem;
+  margin: auto;
+margin-top: 0%;
 
 
 }
 
-.message
-{
 
-width: 800px;
-font-size: 1.4rem;
-line-height: 30px;
-height: 300px;
+#aboutcontent{
+  height: 500px;
+  margin-top: 0;
+  font-size: 4rem;
+  color: white;
+  font-family: cursive;
 color: white ;
-font-family: 'Rubik', sans-serif;
-background-color: rgb(61, 46, 51,);
+background-color: rgb(61, 46, 51,.5);
 border-radius: 20px;
 box-shadow: rgba(241, 239, 239, 0.25) 0px 54px 55px, rgba(249, 247, 247, 0.12) 0px -12px 30px, rgba(239, 237, 237, 0.12) 0px 4px 6px, rgba(249, 248, 248, 0.17) 0px 12px 13px, rgba(247, 245, 245, 0.09) 0px -3px 5px;
-padding: 25px;
-margin-left: 350px;
-margin-top: 50px;
+
+}
+
+.hero-title{
+
+  font-family: 'Space Age', sans-serif;   
+  font-size: 5rem;
 
 
 }
 
-.logos{
-
-
-margin-top: 120px;
-margin-left: 0px;
-text-align: center;
-display: block;
-}
-
-@media (max-width: 1400px) {
-.message{
-font-size: 1.8rem;
-line-height: 35px;
-width: 80%;
-font-family: 'Rubik', sans-serif;
-margin-left: 10%;
-margin-top: 0px;
-height: 320px;
-}
-#presents{
-
-margin-left: 20px;
-font-size: 4rem;
-margin-top: 230px;
-font-family: 'Poppins', sans-serif;
-
-
-}
-#Abhedya{
-font-size: 4rem;
-font-family: 'Poppins', sans-serif;
-margin-left: 20px;
+.hero-text{
+  font-size: 2.7rem;
+  font-family: cursive;
 }
 
 
- 
- }
+
+
+
+
 @media (max-width: 1200px) {
-.message{
-font-size: 1.8rem;
-line-height: 30px;
-width: 80%;
-font-family: 'Rubik', sans-serif;
-margin-left: 10%;
-margin-top: 0px;
-}
+
 #presents{
 
-margin-left: 20px;
-font-size: 4rem;
-margin-top: 230px;
-font-family: 'Poppins', sans-serif;
+margin: auto;
+font-size: 5rem;
+
+font-family:"MODERN WARFARE" ;
 
 
 }
 #Abhedya{
-font-size: 4rem;
-font-family: 'Poppins', sans-serif;
-margin-left: 20px;
+font-size: 5.5rem;
+font-family:"MODERN WARFARE" ;
+
+margin: auto;
 }
 
-.message
-{
+.section-title{
+  font-family: 'Space Age', sans-serif;   
+  font-size: 5rem;
+  margin: auto;
+margin-top: 0%;
 
-width: 800px;
-font-size: 1.4rem;
-line-height: 30px;
-height: 300px;
+
+}
+
+
+#aboutcontent{
+
+  margin-top: 0;
+  font-size: 4rem;
+  color: white;
+  font-family: cursive;
 color: white ;
-font-family: 'Rubik', sans-serif;
-background-color: rgb(61, 46, 51,.4);
+background-color: rgb(61, 46, 51,.5);
 border-radius: 20px;
 box-shadow: rgba(241, 239, 239, 0.25) 0px 54px 55px, rgba(249, 247, 247, 0.12) 0px -12px 30px, rgba(239, 237, 237, 0.12) 0px 4px 6px, rgba(249, 248, 248, 0.17) 0px 12px 13px, rgba(247, 245, 245, 0.09) 0px -3px 5px;
-padding: 25px;
-margin-left: 350px;
-margin-top: 50px;
-
 
 }
+
+.hero-title{
+
+  font-family: 'Space Age', sans-serif;   
+  font-size: 5rem;
+  margin-top: 10%;
+
+}
+
+.hero-text{
+  font-size: 3rem;
+  font-family: cursive;
+}
+
 
 
  
  }
 
  @media (max-width: 1000px) {
-  .message{
-  font-size: 1.5rem;
-  line-height: 30px;
-  width: 90%;
-  font-family: 'Rubik', sans-serif;
-  margin-left: 50px;
-  margin-top: 0px;
-  }
+
   #presents{
 
   margin-left: 20px;
-  font-size: 8rem;
+  font-size: 6.5rem;
   margin-top:-100px;
-  font-family: 'Poppins', sans-serif;
+  font-family:"MODERN WARFARE" ;
   
   
   }
   #Abhedya{
-  font-size: 8rem;
-  font-family: 'Poppins', sans-serif;
+  font-size: 6.5rem;
+  font-family:"MODERN WARFARE" ;
   margin-left: 20px;
+  }
+  
+  .section-title{
+    font-family: 'Space Age', sans-serif;   
+    font-size: 5rem;
+    margin: auto;
+  margin-top: -10%;
+  
+  
+  }
+  
+  
+  #aboutcontent{
+  
+    margin-top: 0;
+    font-size: 3.3rem;
+    color: white;
+    font-family: cursive;
+  color: white ;
+  background-color: rgb(61, 46, 51,.5);
+  border-radius: 20px;
+  box-shadow: rgba(241, 239, 239, 0.25) 0px 54px 55px, rgba(249, 247, 247, 0.12) 0px -12px 30px, rgba(239, 237, 237, 0.12) 0px 4px 6px, rgba(249, 248, 248, 0.17) 0px 12px 13px, rgba(247, 245, 245, 0.09) 0px -3px 5px;
+  
+  }
+  
+  .hero-title{
+  
+    font-family: 'Space Age', sans-serif;   
+    font-size: 6rem;
+    margin-top: 10%;
+  
+  }
+  
+  .hero-text{
+    font-size: 3rem;
+    font-family: cursive;
   }
   
   
@@ -1600,136 +1587,168 @@ margin-top: 50px;
 
 
 @media (max-width: 760px) {
-.message{
-font-size: 1.3rem;
-line-height: 22px;
-width: 600px;
-margin-left: 10%;
-font-family: 'Rubik', sans-serif;
-}
+
 #presents{
 margin-left: 20px;
 font-size: 5rem;
-margin-top: -100pxpx;
-font-family: 'Poppins', sans-serif;
+margin-top: 15%;
+font-family:"MODERN WARFARE" ;
 
 
 }
 #Abhedya{
 font-size: 5rem;
-
-font-family: 'Poppins', sans-serif;
+font-family:"MODERN WARFARE" ;
 margin-left: 20px;
 }
+
+.section-title{
+  font-family: 'Space Age', sans-serif;   
+  font-size: 4rem;
+  margin: auto;
+margin-top: -10%;
+
+
+}
+
+
+#aboutcontent{
+
+  margin-top: 0;
+  font-size: 3.3rem;
+  color: white;
+  font-family: cursive;
+color: white ;
+background-color: rgb(61, 46, 51,.5);
+border-radius: 20px;
+box-shadow: rgba(241, 239, 239, 0.25) 0px 54px 55px, rgba(249, 247, 247, 0.12) 0px -12px 30px, rgba(239, 237, 237, 0.12) 0px 4px 6px, rgba(249, 248, 248, 0.17) 0px 12px 13px, rgba(247, 245, 245, 0.09) 0px -3px 5px;
+
+}
+
+.hero-title{
+
+  font-family: 'Space Age', sans-serif;   
+  font-size: 4rem;
+
+}
+
+.hero-text{
+  font-size: 3rem;
+  font-family: cursive;
+}
+
+
 
 
 
 }
 @media (max-width: 560px) {
-.message{
-font-size: 1rem;
-line-height: 20px;
-width: 90%;
-font-family: 'Rubik', sans-serif;
-margin-left: 5%;
-}
+
 #presents{
 
 font-size: 4.5rem;
 margin-top: 10px;
-font-family: cursive;
+font-family:"MODERN WARFARE" ;
 margin-left: -20px;
 
 }
 #Abhedya{
 font-size: 4.5rem;
-
-font-family: 'Poppins', sans-serif;
+font-family:"MODERN WARFARE" ;
 margin-left: -40px;
 margin-top: 10px;
 }
 
+.section-title{
+  font-family: 'Space Age', sans-serif;   
+  font-size: 3rem;
+  margin: auto;
+  margin-top: -17%;
+
 
 
 }
+
+
+#aboutcontent{
+  margin-top: 0;
+  font-size: 3rem;
+  color: white;
+  font-family: cursive;
+color: white ;
+background-color: rgb(61, 46, 51,.5);
+border-radius: 20px;
+box-shadow: rgba(241, 239, 239, 0.25) 0px 54px 55px, rgba(249, 247, 247, 0.12) 0px -12px 30px, rgba(239, 237, 237, 0.12) 0px 4px 6px, rgba(249, 248, 248, 0.17) 0px 12px 13px, rgba(247, 245, 245, 0.09) 0px -3px 5px;
+}
+
+.hero-title{
+
+  font-family: 'Space Age', sans-serif;   
+  font-size: 3.5rem;
+
+}
+
+.hero-text{
+  font-size: 2.3rem;
+  font-family: cursive;
+}
+
+
+
+}
+
+
 @media (max-width: 390px) {
 
   #presents{
   margin-left: 20px;
-  font-size: 4rem;
+  font-size: 3.6rem;
   margin-top: 0px;
-  font-family: cursive;
+  font-family:"MODERN WARFARE" ;
   margin-left: -0px;
   
   
   }
   #Abhedya{
-  font-size: 4rem;
+  font-size: 3.6rem;
   
-  font-family: cursive;
+  font-family:"MODERN WARFARE" ;
   margin-left: 20px;
   }
   
-  
-  
-  }
+
+ .section-title{
+  font-family: 'Space Age', sans-serif;   
+  font-size: 3rem;
+  margin: auto;
+  margin-top: -25%;
+
+}
 
 
- 
+#aboutcontent{
 
-  .message
-{
-
-width: 800px;
-font-size: 1rem;
-line-height: 30px;
-height: 300px;
+  height: 600px;
+  margin-top: -13%;
+  font-size: 2.7rem;
+  color: white;
+  font-family: cursive;
 color: white ;
-font-family: 'Rubik', sans-serif;
 background-color: rgb(61, 46, 51,.5);
 border-radius: 20px;
 box-shadow: rgba(241, 239, 239, 0.25) 0px 54px 55px, rgba(249, 247, 247, 0.12) 0px -12px 30px, rgba(239, 237, 237, 0.12) 0px 4px 6px, rgba(249, 248, 248, 0.17) 0px 12px 13px, rgba(247, 245, 245, 0.09) 0px -3px 5px;
-padding: 25px;
-margin-left: 350px;
-margin-top: 50px;
-
-
-}
- .section-title{
-  font-family: 'Space Age', sans-serif;   
-  font-size: 5rem;
-  margin: auto;
-  margin-top: -5%;
 }
 
-.container3{
-  background-color:rgb(46, 26, 69,.5) ;
-  font-family: 'Poppins', sans-serif;
-  font-size: 2.5rem;
-  padding: 20px;
-  border-radius: 20px;
-  box-shadow: rgba(249, 248, 248, 0.25) 0px 54px 55px, rgba(243, 240, 240, 0.12) 0px -12px 30px, rgba(249, 245, 245, 0.12) 0px 4px 6px, rgba(246, 241, 241, 0.17) 0px 12px 13px, rgba(249, 245, 245, 0.09) 0px -3px 5px;
-  margin: auto;
-margin-top: 5%;
- width: 80%;
-height: 80%;
-}
-#aboutcontent{
-
-  font-size: 2.7rem;
-
-  color: white;
-  font-family: var(--ff-poppins);
-  line-height: 40px;
-
-}
 .hero-title{
+  margin-top: -20px;
   font-family: 'Space Age', sans-serif;   
   font-size: 3rem;
 
 }
 
 .hero-text{
-  font-size: 1.5rem;
+  font-size: 2.3rem;
+  font-family: cursive
   
+}
 }
